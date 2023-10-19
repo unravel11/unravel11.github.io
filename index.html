@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF Navigation</title>
+</head>
+<body>
+  <ul id="pdf-list"></ul>
+  <script>
+    function getPDFList() {
+      const pdfList = {};
+      const xhr = new XMLHttpRequest();
+      xhr.open("GET", "pdf/");
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          const files = JSON.parse(xhr.responseText);
+          for (const file of files) {
+            const parts = file.split("/");
+            const category = parts[0];
+            const name = parts[1];
+            if (!pdfList[category]) {
+              pdfList[category] = [];
+            }
+            pdfList[category].push(name);
+          }
+          displayPDFList(pdfList);
+        } else {
+          console.error("Error getting PDF list:", xhr.statusText);
+        }
+      };
+      xhr.onerror = function() {
+        console.error("Error getting PDF list:", xhr.statusText);
+      };
+      xhr.send();
+    }
+
+    function displayPDFList(pdfList) {
+      const pdfListElement = document.getElementById("pdf-list");
+      for (const category in pdfList) {
+        const categoryElement = document.createElement("li");
+        categoryElement.textContent = category;
+        const fileListElement = document.createElement("ul");
+        for (const name of pdfList[category]) {
+          const fileElement = document.createElement("li");
+          const linkElement = document.createElement("a");
+          linkElement.textContent = name;
+          linkElement.href = `pdf/${category}/${name}`;
+          fileElement.appendChild(linkElement);
+          fileListElement.appendChild(fileElement);
+        }
+        categoryElement.appendChild(fileListElement);
+        pdfListElement.appendChild(categoryElement);
+      }
+    }
+
+    getPDFList();
+  </script>
+</body>
+</html>
