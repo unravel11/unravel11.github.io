@@ -24,6 +24,8 @@
           }
           displayPDFList(pdfList);
         } else {
+            //显示错误信息
+            console.log(xhr.status);
           console.error("Error getting PDF list:", xhr.statusText);
         }
       };
