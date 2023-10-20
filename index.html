@@ -9,14 +9,14 @@
     function getPDFList() {
       const pdfList = {};
       const xhr = new XMLHttpRequest();
-      xhr.open("GET", "pdf/");
+      // 改为从静态的 pdfList.json 文件中读取数据
+      xhr.open("GET", "pdfList.json");
       xhr.onload = function() {
         if (xhr.status === 200) {
           const files = JSON.parse(xhr.responseText);
           for (const file of files) {
-            const parts = file.split("/");
-            const category = parts[0];
-            const name = parts[1];
+            const category = file.category;
+            const name = file.name;
             if (!pdfList[category]) {
               pdfList[category] = [];
             }
@@ -24,9 +24,9 @@
           }
           displayPDFList(pdfList);
         } else {
-            //显示错误信息
+            // 显示错误信息
             console.log(xhr.status);
-          console.error("Error getting PDF list:", xhr.statusText);
+            console.error("Error getting PDF list:", xhr.statusText);
         }
       };
       xhr.onerror = function() {
