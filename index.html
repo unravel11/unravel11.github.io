@@ -2,9 +2,44 @@
 <html>
 <head>
   <title>PDF Navigation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    #container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      padding: 8px 0;
+    }
+    li > ul > li {
+      padding-left: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <ul id="pdf-list"></ul>
+  <div id="container">
+    <h1>PDF Navigation</h1>
+    <ul id="pdf-list"></ul>
+  </div>
   <script>
     function getPDFList() {
       const pdfList = {};
