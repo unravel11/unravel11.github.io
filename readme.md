@@ -27,5 +27,5 @@
 如果你有任何问题或建议，请随时联系。
 
 ---
-
+https://ascend-repo.obs.cn-east-2.myhuaweicloud.com/Milan-ASL/Milan-ASL%20V100R001C20SPC701/Ascend-cann-kernels-910b_8.0.0.alpha001_linux-aarch64.run?response-content-type=application/octet-stream
 **注意：** 这个项目仅用于私人用途，不建议用于商业或公开的场合。
