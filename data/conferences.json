@@ -1,0 +1,287 @@
+[
+  {
+    "id": "icse",
+    "title": "ICSE",
+    "full_name": "International Conference on Software Engineering",
+    "ccf_rank": "A",
+    "field": "SE",
+    "sub_tags": ["AI+SE", "Testing", "Analysis"],
+    "website": "https://conf.researchr.org/series/icse",
+    "description": "软件工程领域的旗舰会议，涵盖软工全生命周期。",
+    "difficulty": "Top (极难)",
+    "preference": "重视实证研究（Empirical Study）和工具的可复现性。近年来对 AI for SE（如大模型代码生成、智能测试）非常友好，但也要求严格的评估。",
+    "acceptance_rates": [
+      { "year": 2024, "rate": "22.3%", "note": "235/1052" },
+      { "year": 2023, "rate": "26.0%", "note": "208/796" },
+      { "year": 2022, "rate": "26.0%", "note": "197/751" }
+    ],
+    "next_deadline": "2025-03-29",
+    "deadline_note": "2026年首轮投稿 (预计)",
+    "conference_date": "2025-04-27",
+    "location": "Ottawa, Canada",
+    "topics": [
+      "AI for Software Engineering",
+      "Software Testing & Analysis",
+      "Security & Privacy in SE",
+      "Empirical Software Engineering"
+    ]
+  },
+  {
+    "id": "fse",
+    "title": "FSE",
+    "full_name": "ACM International Conference on the Foundations of Software Engineering",
+    "ccf_rank": "A",
+    "field": "SE",
+    "sub_tags": ["AI+SE", "Security", "Reliability"],
+    "website": "https://conf.researchr.org/series/fse",
+    "description": "软工顶级会议，与 ICSE 齐名，偏向技术深度和理论基础。",
+    "difficulty": "Top (极难)",
+    "preference": "偏好技术硬核（Hardcore）的工作，如静态分析、形式化验证、Fuzzing。对 AI 安全（如模型鲁棒性测试）接受度很高。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "27.0%", "note": "" },
+      { "year": 2022, "rate": "22.0%", "note": "" }
+    ],
+    "next_deadline": "2025-09-04",
+    "deadline_note": "2026 轮次 (预计)",
+    "conference_date": "2025-06-23",
+    "location": "Trondheim, Norway",
+    "topics": [
+      "Software Security",
+      "Intelligent Software Engineering",
+      "Program Analysis",
+      "Reliability & Safety"
+    ]
+  },
+  {
+    "id": "ase",
+    "title": "ASE",
+    "full_name": "IEEE/ACM International Conference on Automated Software Engineering",
+    "ccf_rank": "A",
+    "field": "SE",
+    "sub_tags": ["Automation", "AI+SE", "Tools"],
+    "website": "https://conf.researchr.org/series/ase",
+    "description": "关注软件工程中的自动化技术，是 AI+SE 最活跃的舞台。",
+    "difficulty": "High (很难)",
+    "preference": "非常看重“自动化”属性。如果你的工作涉及用 AI 自动化解决某个 SE 问题（如自动修复、自动生成），ASE 是首选。工具演示（Tool Demo）也很重要。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "21.0%", "note": "" },
+      { "year": 2022, "rate": "22.0%", "note": "" }
+    ],
+    "next_deadline": "2025-05-30",
+    "deadline_note": "2025 轮次 (预计)",
+    "conference_date": "2025-10-01",
+    "location": "Sacramento, USA",
+    "topics": [
+      "Automated Reasoning",
+      "AI-driven SE Tools",
+      "Testing & Debugging",
+      "Software Analytics"
+    ]
+  },
+  {
+    "id": "issta",
+    "title": "ISSTA",
+    "full_name": "International Symposium on Software Testing and Analysis",
+    "ccf_rank": "A",
+    "field": "SE",
+    "sub_tags": ["Testing", "Security", "AI+SE"],
+    "website": "https://conf.researchr.org/series/issta",
+    "description": "软件测试与分析领域的最高会议。",
+    "difficulty": "High (很难)",
+    "preference": "专注于测试生成、程序分析、漏洞挖掘。Fuzzing 论文的大本营。对 AI 系统的测试（Testing AI Systems）是当前热点。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "23.0%", "note": "" },
+      { "year": 2022, "rate": "24.0%", "note": "" }
+    ],
+    "next_deadline": "2025-01-29",
+    "deadline_note": "2026 轮次 (Second Cycle)",
+    "conference_date": "2025-09-22",
+    "location": "Trondheim, Norway (Co-located with FSE)",
+    "topics": [
+      "Fuzzing",
+      "Symbolic Execution",
+      "Testing AI/ML Systems",
+      "Security Analysis"
+    ]
+  },
+  {
+    "id": "ccs",
+    "title": "CCS",
+    "full_name": "ACM Conference on Computer and Communications Security",
+    "ccf_rank": "A",
+    "field": "Sec",
+    "sub_tags": ["Security", "AI+Sec", "System"],
+    "website": "https://www.sigsac.org/ccs.html",
+    "description": "安全界“四大顶会”之一，规模最大，议题最广。",
+    "difficulty": "Top (极难)",
+    "preference": "喜欢系统性强、有实际攻击效果的工作。AI 安全（Adversarial ML、Backdoor）近年来占比很大。需要有坚实的实验评估。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "19.5%", "note": "" },
+      { "year": 2022, "rate": "22.0%", "note": "" }
+    ],
+    "next_deadline": "2025-05-15",
+    "deadline_note": "2025 Second Cycle",
+    "conference_date": "2025-10-13",
+    "location": "Taipei, Taiwan",
+    "topics": [
+      "Machine Learning Security",
+      "Software Security",
+      "Network Security",
+      "Privacy"
+    ]
+  },
+  {
+    "id": "sp",
+    "title": "S&P (Oakland)",
+    "full_name": "IEEE Symposium on Security and Privacy",
+    "ccf_rank": "A",
+    "field": "Sec",
+    "sub_tags": ["Security", "Privacy", "Theory"],
+    "website": "https://www.ieee-security.org/TC/SP-Index.html",
+    "description": "安全界最崇高的会议，简称 Oakland。对理论和创新性要求极高。",
+    "difficulty": "Top (极难)",
+    "preference": "不仅要求攻击/防御有效，还要求有深刻的理论洞察（Insights）或全新的攻击面。AI Privacy 和 AI Security 的奠基性工作常发于此。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "17.0%", "note": "Highly Selective" },
+      { "year": 2024, "rate": "14.8%", "note": "" }
+    ],
+    "next_deadline": "2025-06-05",
+    "deadline_note": "2026 First Cycle",
+    "conference_date": "2025-05-12",
+    "location": "San Francisco, USA",
+    "topics": [
+      "Deep Learning Security",
+      "Formal Methods for Security",
+      "Privacy-Preserving ML",
+      "System Security"
+    ]
+  },
+  {
+    "id": "usenix",
+    "title": "USENIX Sec",
+    "full_name": "USENIX Security Symposium",
+    "ccf_rank": "A",
+    "field": "Sec",
+    "sub_tags": ["System", "Applied Sec", "AI+Sec"],
+    "website": "https://www.usenix.org/conference/usenixsecurity25",
+    "description": "安全四大顶会之一，非常注重实际应用和系统实现。",
+    "difficulty": "Top (极难)",
+    "preference": "偏好“做出来”的系统（Real-world Systems）和实用的攻击防御。Artifact Evaluation（代码复现）非常关键。AI 方向偏好实际场景下的攻防。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "29.0%", "note": "High due to multiple cycles" },
+      { "year": 2022, "rate": "18.0%", "note": "" }
+    ],
+    "next_deadline": "2025-02-05",
+    "deadline_note": "2025 Summer Cycle",
+    "conference_date": "2025-08-13",
+    "location": "Seattle, USA",
+    "topics": [
+      "AI/ML System Security",
+      "Vulnerability Discovery",
+      "Web Security",
+      "Mobile Security"
+    ]
+  },
+  {
+    "id": "ndss",
+    "title": "NDSS",
+    "full_name": "Network and Distributed System Security Symposium",
+    "ccf_rank": "A",
+    "field": "Sec",
+    "sub_tags": ["Network", "AI+Sec", "Web"],
+    "website": "https://www.ndss-symposium.org/",
+    "description": "安全四大顶会之一，互联网协会（ISOC）主办。",
+    "difficulty": "Top (极难)",
+    "preference": "虽然名字带 Network，但实际涵盖所有安全领域。近年来对 AI 安全（特别是对抗样本、模型窃取）收录很多。",
+    "acceptance_rates": [
+      { "year": 2024, "rate": "19.6%", "note": "" },
+      { "year": 2023, "rate": "16.2%", "note": "" }
+    ],
+    "next_deadline": "2025-04-18",
+    "deadline_note": "2026 Summer Cycle (Est)",
+    "conference_date": "2025-02-24",
+    "location": "San Diego, USA",
+    "topics": [
+      "Adversarial Machine Learning",
+      "Network Security",
+      "Automated Vulnerability Analysis"
+    ]
+  },
+  {
+    "id": "aaai",
+    "title": "AAAI",
+    "full_name": "AAAI Conference on Artificial Intelligence",
+    "ccf_rank": "A",
+    "field": "AI",
+    "sub_tags": ["AI", "General AI", "AI+Sec"],
+    "website": "https://aaai.org/",
+    "description": "AI 领域的综合性顶级会议。",
+    "difficulty": "Top (极难)",
+    "preference": "综合性强，接受各种 AI 主题。AI 安全（Safe AI, Robustness, Fairness）有专门的 Track 或 Keyword。",
+    "acceptance_rates": [
+      { "year": 2024, "rate": "23.8%", "note": "" },
+      { "year": 2023, "rate": "19.6%", "note": "" }
+    ],
+    "next_deadline": "2025-08-15",
+    "deadline_note": "2026 Main Track (Est)",
+    "conference_date": "2025-02-25",
+    "location": "Philadelphia, USA",
+    "topics": [
+      "AI for Social Impact",
+      "Machine Learning",
+      "Trustworthy AI",
+      "AI Ethics & Safety"
+    ]
+  },
+  {
+    "id": "ijcai",
+    "title": "IJCAI",
+    "full_name": "International Joint Conference on Artificial Intelligence",
+    "ccf_rank": "A",
+    "field": "AI",
+    "sub_tags": ["AI", "General AI", "Agents"],
+    "website": "https://ijcai.org/",
+    "description": "历史最悠久的 AI 顶级会议。",
+    "difficulty": "Top (极难)",
+    "preference": "偏好有理论深度的 AI 工作。近年来对 Trustworthy AI（可信 AI）非常关注。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "15.0%", "note": "Low acceptance rate" },
+      { "year": 2022, "rate": "15.0%", "note": "" }
+    ],
+    "next_deadline": "2025-01-15",
+    "deadline_note": "2025 Abstract Deadline",
+    "conference_date": "2025-08-16",
+    "location": "Montreal, Canada",
+    "topics": [
+      "AI Safety & Security",
+      "Machine Learning",
+      "Knowledge Representation"
+    ]
+  },
+  {
+    "id": "cvpr",
+    "title": "CVPR",
+    "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "ccf_rank": "A",
+    "field": "AI",
+    "sub_tags": ["Vision", "AI", "AI+Sec"],
+    "website": "https://cvpr.thecvf.com/",
+    "description": "计算机视觉领域的 No.1，也是 AI 领域影响力最大的会议之一。",
+    "difficulty": "Top (极难)",
+    "preference": "视觉相关的一切。AI 安全方面，主要关注视觉模型的对抗攻击（Adversarial Attack）、Deepfake 检测、后门攻击等。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "25.8%", "note": "" },
+      { "year": 2022, "rate": "25.3%", "note": "" }
+    ],
+    "next_deadline": "2025-11-14",
+    "deadline_note": "2026 Cycle (Est)",
+    "conference_date": "2025-06-11",
+    "location": "Nashville, USA",
+    "topics": [
+      "Adversarial Vision",
+      "Deepfake Detection",
+      "Vision Transformer",
+      "Generative Models"
+    ]
+  }
+]
