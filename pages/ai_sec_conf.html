@@ -385,7 +385,7 @@
         try {
           // 在实际部署时，这里指向 'data/conferences.json'
           // 为了演示，如果 fetch 失败（比如本地没起 server），我会用一个 fallback 或者直接请求相对路径
-          const res = await fetch('data/conferences.json');
+          const res = await fetch('../data/conferences.json');
           if (res.ok) {
             conferences.value = await res.json();
           } else {
