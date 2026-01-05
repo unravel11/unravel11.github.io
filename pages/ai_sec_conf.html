@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI+Security Conference Tracker</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #1e293b;
+      --text-sub: #64748b;
+      --border: #e2e8f0;
+      --tag-se: #e0f2fe; --tag-se-text: #0369a1;
+      --tag-ai: #fef3c7; --tag-ai-text: #b45309;
+      --tag-sec: #fee2e2; --tag-sec-text: #b91c1c;
+      --tag-cross: #f0fdf4; --tag-cross-text: #15803d;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      background: linear-gradient(to right, #2563eb, #7c3aed);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      color: var(--text-sub);
+      font-size: 1rem;
+    }
+    
+    /* Controls */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-bottom: 24px;
+      background: var(--card-bg);
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .filter-btn {
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: white;
+      cursor: pointer;
+      font-weight: 500;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+    }
+    .filter-btn:hover {
+      background: #f1f5f9;
+    }
+    .filter-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    .search-box {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      width: 200px;
+    }
+
+    /* Grid */
+    .conf-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+    }
+    
+    /* Card */
+    .conf-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .conf-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    }
+    .card-header {
+      padding: 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .conf-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+    .conf-full-name {
+      font-size: 0.85rem;
+      color: var(--text-sub);
+      margin-top: 4px;
+      line-height: 1.2;
+    }
+    .rank-badge {
+      background: #1e293b;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    
+    .card-body {
+      padding: 16px;
+      flex-grow: 1;
+    }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+    }
+    .label {
+      color: var(--text-sub);
+    }
+    .value {
+      font-weight: 500;
+      text-align: right;
+    }
+    .deadline-urgent {
+      color: #dc2626;
+      font-weight: 700;
+    }
+    .deadline-safe {
+      color: #16a34a;
+    }
+    
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+    .tag {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    .tag-se { background: var(--tag-se); color: var(--tag-se-text); }
+    .tag-ai { background: var(--tag-ai); color: var(--tag-ai-text); }
+    .tag-sec { background: var(--tag-sec); color: var(--tag-sec-text); }
+    .tag-cross { background: var(--tag-cross); color: var(--tag-cross-text); }
+
+    .card-footer {
+      padding: 12px 16px;
+      background: #f8fafc;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .expand-btn {
+      color: var(--primary);
+      background: none;
+      border: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0;
+    }
+    .expand-btn:hover {
+      text-decoration: underline;
+    }
+
+    /* Details */
+    .details-panel {
+      padding: 16px;
+      background: #f1f5f9;
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border);
+    }
+    .section-title {
+      font-weight: 600;
+      margin-bottom: 6px;
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .section-title:first-child { margin-top: 0; }
+    
+    .rate-bar-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    .rate-year {
+      width: 40px;
+      font-size: 0.8rem;
+      color: var(--text-sub);
+    }
+    .rate-track {
+      flex-grow: 1;
+      height: 6px;
+      background: #cbd5e1;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .rate-fill {
+      height: 100%;
+      background: var(--primary);
+    }
+    .rate-value {
+      width: 45px;
+      font-size: 0.8rem;
+      text-align: right;
+    }
+    
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-sub);
+    }
+
+    [v-cloak] { display: none; }
+  </style>
+</head>
+<body>
+
+<div id="app" class="container" v-cloak>
+  <header>
+    <a href="../index.html" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); color: #64748b; text-decoration: none; font-size: 0.9rem; display: flex; align-items: center; gap: 4px;">← 返回首页</a>
+    <h1>AI + Security 会议追踪</h1>
+    <div class="subtitle">实时追踪软工、AI、安全领域的顶级会议，聚焦 AI Safety & Security 交叉方向</div>
+    <div style="margin-top: 10px; font-size: 0.85rem; color: #64748b;">
+      数据来源：CCF 推荐目录 (2022) & 社区维护 Deadlines | 
+      <a href="https://github.com/unravel11/unravel11.github.io" target="_blank" style="color: #2563eb;">GitHub 仓库</a>
+    </div>
+  </header>
+
+  <div class="controls">
+    <button 
+      v-for="filter in filters" 
+      :key="filter.value"
+      class="filter-btn"
+      :class="{ active: currentFilter === filter.value }"
+      @click="currentFilter = filter.value"
+    >
+      {{ filter.label }}
+    </button>
+    <div style="width: 1px; background: #e2e8f0; margin: 0 8px;"></div>
+    <input type="text" v-model="searchQuery" placeholder="搜索会议 (ICSE, CCS...)" class="search-box">
+  </div>
+
+  <div v-if="loading" class="loading">
+    正在加载数据...
+  </div>
+
+  <div v-else class="conf-grid">
+    <div v-for="conf in sortedConferences" :key="conf.id" class="conf-card">
+      <div class="card-header">
+        <div>
+          <div class="conf-title">
+            <a :href="conf.website" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #94a3b8;">
+              {{ conf.title }}
+            </a>
+          </div>
+          <div class="conf-full-name">{{ conf.full_name }}</div>
+        </div>
+        <div class="rank-badge">CCF-{{ conf.ccf_rank }}</div>
+      </div>
+      
+      <div class="card-body">
+        <div class="info-row">
+          <span class="label">截稿日期</span>
+          <span class="value" :class="getDeadlineClass(conf.next_deadline)">
+            {{ formatDate(conf.next_deadline) }}
+          </span>
+        </div>
+        <div class="info-row">
+          <span class="label">倒计时</span>
+          <span class="value" :class="getDeadlineClass(conf.next_deadline)">
+            {{ getCountdown(conf.next_deadline) }}
+          </span>
+        </div>
+        <div class="info-row">
+          <span class="label">会议时间</span>
+          <span class="value">{{ conf.conference_date || 'TBD' }}</span>
+        </div>
+        <div class="info-row">
+          <span class="label">地点</span>
+          <span class="value">{{ conf.location || 'TBD' }}</span>
+        </div>
+        <div class="info-row">
+          <span class="label">难度</span>
+          <span class="value">{{ conf.difficulty }}</span>
+        </div>
+
+        <div class="tags">
+          <span class="tag" :class="getFieldClass(conf.field)">{{ conf.field }}</span>
+          <span v-for="tag in conf.sub_tags" :key="tag" class="tag tag-cross">
+            {{ tag }}
+          </span>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <div style="font-size: 0.8rem; color: #64748b;">
+          {{ conf.deadline_note }}
+        </div>
+        <button class="expand-btn" @click="toggleExpand(conf.id)">
+          {{ expandedDetails.includes(conf.id) ? '收起详情 ▲' : '查看详情 ▼' }}
+        </button>
+      </div>
+
+      <div v-if="expandedDetails.includes(conf.id)" class="details-panel">
+        <div class="section-title">📊 往年收录比</div>
+        <div v-for="rate in conf.acceptance_rates" :key="rate.year" class="rate-bar-container">
+          <div class="rate-year">{{ rate.year }}</div>
+          <div class="rate-track">
+            <div class="rate-fill" :style="{ width: parseFloat(rate.rate) + '%' }"></div>
+          </div>
+          <div class="rate-value">{{ rate.rate }}</div>
+        </div>
+        
+        <div class="section-title">💡 录取偏好 & 评价</div>
+        <p style="margin: 4px 0; color: #334155;">{{ conf.preference }}</p>
+        
+        <div class="section-title">🎯 AI+Sec 重点议题</div>
+        <ul style="margin: 4px 0; padding-left: 20px; color: #334155;">
+          <li v-for="topic in conf.topics" :key="topic">{{ topic }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const { createApp, ref, computed, onMounted } = Vue;
+
+  createApp({
+    setup() {
+      const conferences = ref([]);
+      const loading = ref(true);
+      const currentFilter = ref('all');
+      const searchQuery = ref('');
+      const expandedDetails = ref([]);
+
+      const filters = [
+        { label: '全部', value: 'all' },
+        { label: 'AI+安全', value: 'cross' },
+        { label: '软件工程', value: 'SE' },
+        { label: '人工智能', value: 'AI' },
+        { label: '安全', value: 'Sec' }
+      ];
+
+      // Fetch data
+      onMounted(async () => {
+        try {
+          // 在实际部署时，这里指向 'data/conferences.json'
+          // 为了演示，如果 fetch 失败（比如本地没起 server），我会用一个 fallback 或者直接请求相对路径
+          const res = await fetch('data/conferences.json');
+          if (res.ok) {
+            conferences.value = await res.json();
+          } else {
+            console.error("Failed to load data");
+          }
+        } catch (e) {
+          console.error(e);
+        } finally {
+          loading.value = false;
+        }
+      });
+
+      const sortedConferences = computed(() => {
+        let result = conferences.value;
+
+        // 1. Filter
+        if (currentFilter.value !== 'all') {
+          if (currentFilter.value === 'cross') {
+            // 简单逻辑：只要 sub_tags 里有 AI+Sec 或类似交叉词
+            result = result.filter(c => c.sub_tags.some(t => t.includes('AI') && (t.includes('Sec') || t.includes('Safe') || t.includes('Reliability')) || t === 'AI+SE' || t === 'AI+Sec'));
+          } else {
+            result = result.filter(c => c.field === currentFilter.value);
+          }
+        }
+
+        // 2. Search
+        if (searchQuery.value) {
+          const q = searchQuery.value.toLowerCase();
+          result = result.filter(c => 
+            c.title.toLowerCase().includes(q) || 
+            c.full_name.toLowerCase().includes(q)
+          );
+        }
+
+        // 3. Sort by deadline (closest first)
+        return result.sort((a, b) => {
+          const da = new Date(a.next_deadline || '2099-12-31');
+          const db = new Date(b.next_deadline || '2099-12-31');
+          return da - db;
+        });
+      });
+
+      const toggleExpand = (id) => {
+        const idx = expandedDetails.value.indexOf(id);
+        if (idx === -1) {
+          expandedDetails.value.push(id);
+        } else {
+          expandedDetails.value.splice(idx, 1);
+        }
+      };
+
+      // Helpers
+      const formatDate = (dateStr) => {
+        if (!dateStr) return 'TBD';
+        return dateStr;
+      };
+
+      const getCountdown = (dateStr) => {
+        if (!dateStr) return '--';
+        const target = new Date(dateStr);
+        const now = new Date();
+        const diff = target - now;
+        
+        if (diff < 0) return '已截稿';
+        
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        if (days === 0) return '今天';
+        return days + ' 天';
+      };
+
+      const getDeadlineClass = (dateStr) => {
+        if (!dateStr) return '';
+        const target = new Date(dateStr);
+        const now = new Date();
+        const diff = target - now;
+        const days = diff / (1000 * 60 * 60 * 24);
+        
+        if (days < 0) return 'label'; // expired
+        if (days < 30) return 'deadline-urgent';
+        return 'deadline-safe';
+      };
+
+      const getFieldClass = (field) => {
+        if (field === 'SE') return 'tag-se';
+        if (field === 'AI') return 'tag-ai';
+        if (field === 'Sec') return 'tag-sec';
+        return '';
+      };
+
+      return {
+        conferences,
+        loading,
+        currentFilter,
+        filters,
+        searchQuery,
+        sortedConferences,
+        expandedDetails,
+        toggleExpand,
+        formatDate,
+        getCountdown,
+        getDeadlineClass,
+        getFieldClass
+      };
+    }
+  }).mount('#app');
+</script>
+
+</body>
+</html>

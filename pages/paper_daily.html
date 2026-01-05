@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>论文每日速递</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <style>
+    :root {
+      --primary: #059669;
+      --bg: #f0fdf4;
+      --card-bg: #ffffff;
+      --text-main: #064e3b;
+      --text-sub: #047857;
+      --border: #d1fae5;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+      position: relative;
+    }
+    .back-link {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-sub);
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .back-link:hover { text-decoration: underline; }
+    
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .subtitle { font-size: 0.95rem; color: var(--text-sub); opacity: 0.9; }
+
+    .paper-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .paper-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+      transition: box-shadow 0.2s;
+    }
+    .paper-card:hover {
+      box-shadow: 0 8px 12px rgba(0,0,0,0.05);
+    }
+    
+    .paper-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.8rem;
+      color: var(--text-sub);
+      margin-bottom: 8px;
+    }
+    .source-badge {
+      background: #ecfdf5;
+      color: #059669;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+      border: 1px solid #a7f3d0;
+    }
+    
+    .paper-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+    .paper-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .paper-title a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    
+    .paper-authors {
+      font-size: 0.9rem;
+      color: #4b5563;
+      margin-bottom: 12px;
+      font-style: italic;
+    }
+    
+    .paper-summary {
+      background: #fafafa;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: #374151;
+      border-left: 4px solid var(--primary);
+    }
+    .summary-label {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .tag {
+      font-size: 0.75rem;
+      background: #f3f4f6;
+      color: #4b5563;
+      padding: 2px 8px;
+      border-radius: 99px;
+    }
+
+    .loading { text-align: center; padding: 40px; color: var(--text-sub); }
+    [v-cloak] { display: none; }
+  </style>
+</head>
+<body>
+
+<div id="app" class="container" v-cloak>
+  <header>
+    <a href="../index.html" class="back-link">← 返回首页</a>
+    <h1>论文每日速递</h1>
+    <div class="subtitle">实时聚合 arXiv & 顶会最新成果 · AI 辅助摘要</div>
+  </header>
+
+  <div v-if="loading" class="loading">正在获取最新论文...</div>
+
+  <div v-else class="paper-list">
+    <div v-for="paper in papers" :key="paper.id" class="paper-card">
+      <div class="paper-meta">
+        <span class="source-badge">{{ paper.source }}</span>
+        <span>{{ paper.date }}</span>
+      </div>
+      
+      <div class="paper-title">
+        <a :href="paper.link" target="_blank">{{ paper.title }}</a>
+      </div>
+      
+      <div class="paper-authors">{{ paper.authors }}</div>
+      
+      <div class="paper-summary">
+        <span class="summary-label">AI Summary</span>
+        {{ paper.summary }}
+      </div>
+      
+      <div class="tags">
+        <span v-for="tag in paper.tags" :key="tag" class="tag">#{{ tag }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const { createApp, ref, onMounted } = Vue;
+
+  createApp({
+    setup() {
+      const papers = ref([]);
+      const loading = ref(true);
+
+      onMounted(async () => {
+        try {
+          // 这里读取的是静态 JSON，实际生产中这里应由 Python 脚本每日更新
+          const res = await fetch('../data/papers.json');
+          if (res.ok) {
+            papers.value = await res.json();
+          }
+        } catch (e) {
+          console.error(e);
+        } finally {
+          loading.value = false;
+        }
+      });
+
+      return { papers, loading };
+    }
+  }).mount('#app');
+</script>
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>体系结构 & 硬件会议追踪</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <style>
+    :root {
+      --primary: #7c3aed;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #1e293b;
+      --text-sub: #64748b;
+      --border: #e2e8f0;
+      --tag-arch: #f3e8ff; --tag-arch-text: #6b21a8;
+      --tag-eda: #fae8ff; --tag-eda-text: #86198f;
+      --tag-super: #e0f2fe; --tag-super-text: #075985;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+      position: relative;
+    }
+    .back-link {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-sub);
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .back-link:hover { color: var(--primary); }
+    
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      background: linear-gradient(to right, #7c3aed, #db2777);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      color: var(--text-sub);
+      font-size: 1rem;
+    }
+    
+    .conf-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+    }
+    
+    .conf-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .conf-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    }
+    .card-header {
+      padding: 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .conf-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+    .conf-full-name {
+      font-size: 0.85rem;
+      color: var(--text-sub);
+      margin-top: 4px;
+      line-height: 1.2;
+    }
+    .rank-badge {
+      background: #1e293b;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    
+    .card-body {
+      padding: 16px;
+      flex-grow: 1;
+    }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+    }
+    .label { color: var(--text-sub); }
+    .value { font-weight: 500; text-align: right; }
+    
+    .deadline-urgent { color: #dc2626; font-weight: 700; }
+    .deadline-safe { color: #16a34a; }
+    
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+    .tag {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    .tag-arch { background: var(--tag-arch); color: var(--tag-arch-text); }
+    .tag-eda { background: var(--tag-eda); color: var(--tag-eda-text); }
+    .tag-super { background: var(--tag-super); color: var(--tag-super-text); }
+    
+    .card-footer {
+      padding: 12px 16px;
+      background: #f8fafc;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: #64748b;
+    }
+    
+    .loading { text-align: center; padding: 40px; color: var(--text-sub); }
+    [v-cloak] { display: none; }
+  </style>
+</head>
+<body>
+
+<div id="app" class="container" v-cloak>
+  <header>
+    <a href="../index.html" class="back-link">← 返回首页</a>
+    <h1>体系结构 & 硬件会议追踪</h1>
+    <div class="subtitle">关注 ISCA, MICRO, DAC, 超导与新型计算</div>
+  </header>
+
+  <div v-if="loading" class="loading">正在加载数据...</div>
+
+  <div v-else class="conf-grid">
+    <div v-for="conf in conferences" :key="conf.id" class="conf-card">
+      <div class="card-header">
+        <div>
+          <div class="conf-title">
+            <a :href="conf.website" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #94a3b8;">
+              {{ conf.title }}
+            </a>
+          </div>
+          <div class="conf-full-name">{{ conf.full_name }}</div>
+        </div>
+        <div class="rank-badge">{{ conf.ccf_rank === 'N/A' ? 'Other' : 'CCF-' + conf.ccf_rank }}</div>
+      </div>
+      
+      <div class="card-body">
+        <div class="info-row">
+          <span class="label">截稿日期</span>
+          <span class="value" :class="getDeadlineClass(conf.next_deadline)">
+            {{ formatDate(conf.next_deadline) }}
+          </span>
+        </div>
+        <div class="info-row">
+          <span class="label">倒计时</span>
+          <span class="value" :class="getDeadlineClass(conf.next_deadline)">
+            {{ getCountdown(conf.next_deadline) }}
+          </span>
+        </div>
+        <div class="info-row">
+          <span class="label">难度</span>
+          <span class="value">{{ conf.difficulty }}</span>
+        </div>
+
+        <div class="tags">
+          <span class="tag" :class="getFieldClass(conf.field)">{{ conf.field }}</span>
+          <span v-for="tag in conf.sub_tags" :key="tag" class="tag" style="background: #f1f5f9; color: #475569;">
+            {{ tag }}
+          </span>
+        </div>
+        
+        <p style="margin-top: 12px; font-size: 0.85rem; color: #475569; line-height: 1.4;">
+          {{ conf.preference }}
+        </p>
+      </div>
+
+      <div class="card-footer">
+        {{ conf.deadline_note }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const { createApp, ref, onMounted } = Vue;
+
+  createApp({
+    setup() {
+      const conferences = ref([]);
+      const loading = ref(true);
+
+      onMounted(async () => {
+        try {
+          const res = await fetch('../data/arch_conf.json');
+          if (res.ok) {
+            conferences.value = await res.json();
+            // Sort by deadline
+            conferences.value.sort((a, b) => {
+              const da = new Date(a.next_deadline || '2099-12-31');
+              const db = new Date(b.next_deadline || '2099-12-31');
+              return da - db;
+            });
+          }
+        } catch (e) {
+          console.error(e);
+        } finally {
+          loading.value = false;
+        }
+      });
+
+      const formatDate = (dateStr) => dateStr || 'TBD';
+
+      const getCountdown = (dateStr) => {
+        if (!dateStr) return '--';
+        const target = new Date(dateStr);
+        const now = new Date();
+        const diff = target - now;
+        if (diff < 0) return '已截稿';
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        return days === 0 ? '今天' : days + ' 天';
+      };
+
+      const getDeadlineClass = (dateStr) => {
+        if (!dateStr) return '';
+        const target = new Date(dateStr);
+        const now = new Date();
+        const diff = target - now;
+        const days = diff / (1000 * 60 * 60 * 24);
+        if (days < 0) return 'label';
+        if (days < 30) return 'deadline-urgent';
+        return 'deadline-safe';
+      };
+
+      const getFieldClass = (field) => {
+        if (field === 'Arch') return 'tag-arch';
+        if (field === 'EDA') return 'tag-eda';
+        if (field === 'Super') return 'tag-super';
+        return '';
+      };
+
+      return { conferences, loading, formatDate, getCountdown, getDeadlineClass, getFieldClass };
+    }
+  }).mount('#app');
+</script>
+
+</body>
+</html>
