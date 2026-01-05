@@ -12,13 +12,12 @@
     "preference": "重视实证研究（Empirical Study）和工具的可复现性。近年来对 AI for SE（如大模型代码生成、智能测试）非常友好，但也要求严格的评估。",
     "acceptance_rates": [
       { "year": 2024, "rate": "22.3%", "note": "235/1052" },
-      { "year": 2023, "rate": "26.0%", "note": "208/796" },
-      { "year": 2022, "rate": "26.0%", "note": "197/751" }
+      { "year": 2023, "rate": "26.0%", "note": "208/796" }
     ],
-    "next_deadline": "2025-03-29",
-    "deadline_note": "2026年首轮投稿 (预计)",
-    "conference_date": "2025-04-27",
-    "location": "Ottawa, Canada",
+    "next_deadline": "2025-10-01",
+    "deadline_note": "2026 Cycle (Est)",
+    "conference_date": "2026-05-01",
+    "location": "Rio de Janeiro, Brazil",
     "topics": [
       "AI for Software Engineering",
       "Software Testing & Analysis",
@@ -42,9 +41,9 @@
       { "year": 2022, "rate": "22.0%", "note": "" }
     ],
     "next_deadline": "2025-09-04",
-    "deadline_note": "2026 轮次 (预计)",
-    "conference_date": "2025-06-23",
-    "location": "Trondheim, Norway",
+    "deadline_note": "2026 Cycle (Est)",
+    "conference_date": "2026-06-23",
+    "location": "TBD",
     "topics": [
       "Software Security",
       "Intelligent Software Engineering",
@@ -68,7 +67,7 @@
       { "year": 2022, "rate": "22.0%", "note": "" }
     ],
     "next_deadline": "2025-05-30",
-    "deadline_note": "2025 轮次 (预计)",
+    "deadline_note": "2025 Cycle (Est)",
     "conference_date": "2025-10-01",
     "location": "Sacramento, USA",
     "topics": [
@@ -93,15 +92,113 @@
       { "year": 2023, "rate": "23.0%", "note": "" },
       { "year": 2022, "rate": "24.0%", "note": "" }
     ],
-    "next_deadline": "2025-01-29",
-    "deadline_note": "2026 轮次 (Second Cycle)",
-    "conference_date": "2025-09-22",
-    "location": "Trondheim, Norway (Co-located with FSE)",
+    "next_deadline": "2026-01-29",
+    "deadline_note": "2026 Cycle (Est)",
+    "conference_date": "2026-07-01",
+    "location": "TBD",
     "topics": [
       "Fuzzing",
       "Symbolic Execution",
       "Testing AI/ML Systems",
       "Security Analysis"
+    ]
+  },
+  {
+    "id": "oopsla",
+    "title": "OOPSLA",
+    "full_name": "Object-Oriented Programming, Systems, Languages & Applications",
+    "ccf_rank": "A",
+    "field": "SE",
+    "sub_tags": ["PL", "System", "Analysis"],
+    "website": "https://www.splashcon.org/",
+    "description": "编程语言与软工交叉顶会，SPLASH 的一部分。",
+    "difficulty": "Top (极难)",
+    "preference": "偏好有坚实理论基础（PL Theory）或强大系统实现的工作。静态分析、编译器验证、程序合成是常客。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "32.0%", "note": "Multiple rounds" }
+    ],
+    "next_deadline": "2025-04-15",
+    "deadline_note": "2025 Round 2 (Est)",
+    "conference_date": "2025-10-20",
+    "location": "Singapore",
+    "topics": [
+      "Program Analysis",
+      "Compiler Verification",
+      "Programming Languages",
+      "Software Reliability"
+    ]
+  },
+  {
+    "id": "saner",
+    "title": "SANER",
+    "full_name": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+    "ccf_rank": "B",
+    "field": "SE",
+    "sub_tags": ["Maintenance", "AI+SE", "Analysis"],
+    "website": "https://saner-conference.org/",
+    "description": "专注于软件维护、演化和再工程。",
+    "difficulty": "Mid (中等偏难)",
+    "preference": "代码分析、重构、反向工程。AI for Code Understanding 是热门。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "24.0%", "note": "" }
+    ],
+    "next_deadline": "2025-10-15",
+    "deadline_note": "2026 Cycle (Est)",
+    "conference_date": "2026-03-01",
+    "location": "TBD",
+    "topics": [
+      "Software Evolution",
+      "Reverse Engineering",
+      "AI for Code",
+      "Mining Software Repositories"
+    ]
+  },
+  {
+    "id": "icsme",
+    "title": "ICSME",
+    "full_name": "IEEE International Conference on Software Maintenance and Evolution",
+    "ccf_rank": "B",
+    "field": "SE",
+    "sub_tags": ["Maintenance", "Evolution"],
+    "website": "https://conf.researchr.org/series/icsme",
+    "description": "软件维护领域的顶级会议。",
+    "difficulty": "Mid (中等偏难)",
+    "preference": "长期维护、技术债务、演化模式分析。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "26.0%", "note": "" }
+    ],
+    "next_deadline": "2026-03-01",
+    "deadline_note": "2026 Cycle (Est)",
+    "conference_date": "2026-09-01",
+    "location": "TBD",
+    "topics": [
+      "Software Maintenance",
+      "Evolutionary Analysis",
+      "Technical Debt"
+    ]
+  },
+  {
+    "id": "issre",
+    "title": "ISSRE",
+    "full_name": "International Symposium on Software Reliability Engineering",
+    "ccf_rank": "B",
+    "field": "SE",
+    "sub_tags": ["Reliability", "Testing", "System"],
+    "website": "https://issre.net/",
+    "description": "软件可靠性工程的重要会议。",
+    "difficulty": "Mid (中等偏难)",
+    "preference": "工业界参与度高，看重可靠性评估、故障注入、系统恢复能力。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "28.0%", "note": "" }
+    ],
+    "next_deadline": "2025-08-01",
+    "deadline_note": "2025 Cycle (Est)",
+    "conference_date": "2025-11-01",
+    "location": "TBD",
+    "topics": [
+      "Reliability Engineering",
+      "Fault Tolerance",
+      "System Safety"
     ]
   },
   {
@@ -120,7 +217,7 @@
       { "year": 2022, "rate": "22.0%", "note": "" }
     ],
     "next_deadline": "2025-05-15",
-    "deadline_note": "2025 Second Cycle",
+    "deadline_note": "2025 Second Cycle (Est)",
     "conference_date": "2025-10-13",
     "location": "Taipei, Taiwan",
     "topics": [
@@ -146,8 +243,8 @@
       { "year": 2024, "rate": "14.8%", "note": "" }
     ],
     "next_deadline": "2025-06-05",
-    "deadline_note": "2026 First Cycle",
-    "conference_date": "2025-05-12",
+    "deadline_note": "2026 First Cycle (Est)",
+    "conference_date": "2026-05-18",
     "location": "San Francisco, USA",
     "topics": [
       "Deep Learning Security",
@@ -171,8 +268,8 @@
       { "year": 2023, "rate": "29.0%", "note": "High due to multiple cycles" },
       { "year": 2022, "rate": "18.0%", "note": "" }
     ],
-    "next_deadline": "2025-02-05",
-    "deadline_note": "2025 Summer Cycle",
+    "next_deadline": "2025-06-05",
+    "deadline_note": "2026 Summer Cycle (Est)",
     "conference_date": "2025-08-13",
     "location": "Seattle, USA",
     "topics": [
@@ -199,12 +296,108 @@
     ],
     "next_deadline": "2025-04-18",
     "deadline_note": "2026 Summer Cycle (Est)",
-    "conference_date": "2025-02-24",
+    "conference_date": "2026-02-24",
     "location": "San Diego, USA",
     "topics": [
       "Adversarial Machine Learning",
       "Network Security",
       "Automated Vulnerability Analysis"
+    ]
+  },
+  {
+    "id": "crypto",
+    "title": "CRYPTO",
+    "full_name": "International Cryptology Conference",
+    "ccf_rank": "A",
+    "field": "Sec",
+    "sub_tags": ["Cryptography", "Theory"],
+    "website": "https://iacr.org/conferences/",
+    "description": "密码学领域的顶级会议 (IACR 主办)。",
+    "difficulty": "Top (极难)",
+    "preference": "纯密码学理论、协议设计、加密算法分析。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "24.0%", "note": "" }
+    ],
+    "next_deadline": "2025-02-13",
+    "deadline_note": "2025 Cycle",
+    "conference_date": "2025-08-17",
+    "location": "Santa Barbara, USA",
+    "topics": [
+      "Cryptographic Protocols",
+      "Post-Quantum Cryptography",
+      "Secure Computation"
+    ]
+  },
+  {
+    "id": "esorics",
+    "title": "ESORICS",
+    "full_name": "European Symposium on Research in Computer Security",
+    "ccf_rank": "B",
+    "field": "Sec",
+    "sub_tags": ["Security", "Europe"],
+    "website": "https://esorics2025.org/",
+    "description": "欧洲最著名的计算机安全会议。",
+    "difficulty": "High (很难)",
+    "preference": "综合性安全议题，理论与应用并重。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "19.0%", "note": "" }
+    ],
+    "next_deadline": "2025-05-15",
+    "deadline_note": "2025 Cycle (Est)",
+    "conference_date": "2025-09-22",
+    "location": "TBD",
+    "topics": [
+      "Formal Security",
+      "Network Security",
+      "Privacy"
+    ]
+  },
+  {
+    "id": "dsn",
+    "title": "DSN",
+    "full_name": "International Conference on Dependable Systems and Networks",
+    "ccf_rank": "B",
+    "field": "Sec",
+    "sub_tags": ["Reliability", "Security"],
+    "website": "https://dsn.org/",
+    "description": "可靠性与安全交叉领域的顶级会议。",
+    "difficulty": "Mid (中等偏难)",
+    "preference": "侧重系统的高可用性、容错和安全性。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "21.0%", "note": "" }
+    ],
+    "next_deadline": "2025-12-05",
+    "deadline_note": "2026 Cycle (Est)",
+    "conference_date": "2026-06-25",
+    "location": "TBD",
+    "topics": [
+      "Dependable Systems",
+      "Fault Tolerance",
+      "Safety-Critical Systems"
+    ]
+  },
+  {
+    "id": "raid",
+    "title": "RAID",
+    "full_name": "International Symposium on Research in Attacks, Intrusions and Defenses",
+    "ccf_rank": "B",
+    "field": "Sec",
+    "sub_tags": ["Intrusion", "Malware", "AI+Sec"],
+    "website": "https://raid2025.org/",
+    "description": "专注于攻击、入侵检测和防御技术。",
+    "difficulty": "Mid (中等偏难)",
+    "preference": "恶意软件分析、入侵检测、攻防实战。AI 驱动的检测（AI-based Detection）是热点。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "23.0%", "note": "" }
+    ],
+    "next_deadline": "2025-03-01",
+    "deadline_note": "2025 Cycle (Est)",
+    "conference_date": "2025-10-01",
+    "location": "TBD",
+    "topics": [
+      "Malware Analysis",
+      "Intrusion Detection",
+      "Adversarial Defense"
     ]
   },
   {
@@ -223,9 +416,9 @@
       { "year": 2023, "rate": "19.6%", "note": "" }
     ],
     "next_deadline": "2025-08-15",
-    "deadline_note": "2026 Main Track (Est)",
-    "conference_date": "2025-02-25",
-    "location": "Philadelphia, USA",
+    "deadline_note": "2026 Cycle (Est)",
+    "conference_date": "2026-02-25",
+    "location": "TBD",
     "topics": [
       "AI for Social Impact",
       "Machine Learning",
@@ -249,7 +442,7 @@
       { "year": 2022, "rate": "15.0%", "note": "" }
     ],
     "next_deadline": "2025-01-15",
-    "deadline_note": "2025 Abstract Deadline",
+    "deadline_note": "2025 Abstract (Est)",
     "conference_date": "2025-08-16",
     "location": "Montreal, Canada",
     "topics": [
@@ -275,13 +468,111 @@
     ],
     "next_deadline": "2025-11-14",
     "deadline_note": "2026 Cycle (Est)",
-    "conference_date": "2025-06-11",
-    "location": "Nashville, USA",
+    "conference_date": "2026-06-11",
+    "location": "TBD",
     "topics": [
       "Adversarial Vision",
       "Deepfake Detection",
       "Vision Transformer",
       "Generative Models"
+    ]
+  },
+  {
+    "id": "neurips",
+    "title": "NeurIPS",
+    "full_name": "Conference on Neural Information Processing Systems",
+    "ccf_rank": "A",
+    "field": "AI",
+    "sub_tags": ["ML", "AI", "Theory"],
+    "website": "https://neurips.cc/",
+    "description": "机器学习领域最顶级的会议，理论与深度学习并重。",
+    "difficulty": "Top (极难)",
+    "preference": "深度学习新架构、优化算法、学习理论。Safe RL 和 Robust ML 是重要分支。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "26.1%", "note": "" }
+    ],
+    "next_deadline": "2025-05-15",
+    "deadline_note": "2025 Cycle (Est)",
+    "conference_date": "2025-12-01",
+    "location": "San Diego, USA",
+    "topics": [
+      "Deep Learning",
+      "Reinforcement Learning",
+      "Trustworthy ML",
+      "Optimization"
+    ]
+  },
+  {
+    "id": "icml",
+    "title": "ICML",
+    "full_name": "International Conference on Machine Learning",
+    "ccf_rank": "A",
+    "field": "AI",
+    "sub_tags": ["ML", "AI"],
+    "website": "https://icml.cc/",
+    "description": "机器学习顶级会议。",
+    "difficulty": "Top (极难)",
+    "preference": "机器学习各个方面，从理论到应用。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "27.9%", "note": "" }
+    ],
+    "next_deadline": "2025-01-26",
+    "deadline_note": "2025 Cycle",
+    "conference_date": "2025-07-13",
+    "location": "Canada",
+    "topics": [
+      "Machine Learning",
+      "Deep Learning",
+      "AI Safety"
+    ]
+  },
+  {
+    "id": "acl",
+    "title": "ACL",
+    "full_name": "Annual Meeting of the Association for Computational Linguistics",
+    "ccf_rank": "A",
+    "field": "AI",
+    "sub_tags": ["NLP", "AI", "LLM"],
+    "website": "https://2025.aclweb.org/",
+    "description": "自然语言处理 (NLP) 领域的旗舰会议。",
+    "difficulty": "Top (极难)",
+    "preference": "LLM 时代的核心会议。关注大模型安全、幻觉（Hallucination）、提示工程安全（Prompt Injection）。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "20.0%", "note": "" }
+    ],
+    "next_deadline": "2025-02-01",
+    "deadline_note": "2025 ARR Cycle (Est)",
+    "conference_date": "2025-07-27",
+    "location": "Vienna, Austria",
+    "topics": [
+      "Large Language Models",
+      "NLP Security",
+      "Interpretability",
+      "Dialogue Systems"
+    ]
+  },
+  {
+    "id": "emnlp",
+    "title": "EMNLP",
+    "full_name": "Conference on Empirical Methods in Natural Language Processing",
+    "ccf_rank": "B",
+    "field": "AI",
+    "sub_tags": ["NLP", "AI"],
+    "website": "https://2024.emnlp.org/",
+    "description": "NLP 领域仅次于 ACL 的顶级会议，侧重实证方法。",
+    "difficulty": "High (很难)",
+    "preference": "数据驱动的 NLP 研究。近年来收录了大量关于 LLM 评估和安全的工作。",
+    "acceptance_rates": [
+      { "year": 2023, "rate": "21.0%", "note": "" }
+    ],
+    "next_deadline": "2025-06-15",
+    "deadline_note": "2025 ARR Cycle (Est)",
+    "conference_date": "2025-11-01",
+    "location": "TBD",
+    "topics": [
+      "Empirical NLP",
+      "LLM Evaluation",
+      "Information Extraction"
     ]
   }
 ]
