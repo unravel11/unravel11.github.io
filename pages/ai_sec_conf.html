@@ -282,6 +282,10 @@
     正在加载数据...
   </div>
 
+  <div v-else-if="errorMsg" class="loading" style="color: #dc2626;">
+    {{ errorMsg }}
+  </div>
+
   <div v-else class="conf-grid">
     <div v-for="conf in sortedConferences" :key="conf.id" class="conf-card">
       <div class="card-header">
@@ -368,6 +372,7 @@
     setup() {
       const conferences = ref([]);
       const loading = ref(true);
+      const errorMsg = ref('');
       const currentFilter = ref('all');
       const searchQuery = ref('');
       const expandedDetails = ref([]);
@@ -380,22 +385,37 @@
         { label: '安全', value: 'Sec' }
       ];
 
-      // Fetch data
+      // Fetch data with improved path handling
       onMounted(async () => {
-        try {
-          // 在实际部署时，这里指向 'data/conferences.json'
-          // 为了演示，如果 fetch 失败（比如本地没起 server），我会用一个 fallback 或者直接请求相对路径
-          const res = await fetch('../data/conferences.json');
-          if (res.ok) {
-            conferences.value = await res.json();
-          } else {
-            console.error("Failed to load data");
+        const paths = [
+          '../data/conferences.json', // Local relative
+          '/data/conferences.json',   // Root relative
+          '/unravel11.github.io/data/conferences.json', // GitHub Pages default repo path
+          './data/conferences.json'   // Current relative (fallback)
+        ];
+
+        for (const path of paths) {
+          try {
+            console.log(`Trying to fetch data from: ${path}`);
+            const res = await fetch(path);
+            if (res.ok) {
+              const data = await res.json();
+              if (Array.isArray(data) && data.length > 0) {
+                conferences.value = data;
+                loading.value = false;
+                console.log(`Successfully loaded data from: ${path}`);
+                return; // Success
+              }
+            }
+          } catch (e) {
+            console.warn(`Failed to fetch from ${path}:`, e);
           }
-        } catch (e) {
-          console.error(e);
-        } finally {
-          loading.value = false;
         }
+        
+        // If we get here, all fetches failed
+        loading.value = false;
+        errorMsg.value = '无法加载会议数据。请检查网络连接或数据文件路径。';
+        console.error('All fetch attempts failed.');
       });
 
       const sortedConferences = computed(() => {
