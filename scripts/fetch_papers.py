@@ -36,7 +36,7 @@ def save_papers(papers):
 
 def fetch_arxiv_papers():
     print("Fetching papers from arXiv...")
-    base_url = 'http://export.arxiv.org/api/query?'
+    base_url = 'https://export.arxiv.org/api/query?'
     
     # Construct query: (cat:cs.CR OR cat:cs.SE ... ) AND (submittedDate:[NOW-2DAYS TO NOW])
     # For simplicity, we just query by category and sort by submittedDate descending
