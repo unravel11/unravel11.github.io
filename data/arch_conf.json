@@ -5,16 +5,23 @@
     "full_name": "International Symposium on Computer Architecture",
     "ccf_rank": "A",
     "field": "Arch",
-    "sub_tags": ["Architecture", "Hardware"],
+    "sub_tags": [
+      "Architecture",
+      "Hardware"
+    ],
     "website": "https://www.iscaconf.org/",
     "description": "计算机体系结构领域的旗舰会议。",
     "difficulty": "Top (极难)",
     "preference": "偏好高性能计算、新型存储、专用加速器设计。近年来对 AI 芯片（AI Accelerators）和超导计算（Superconducting）非常关注。",
     "acceptance_rates": [
-      { "year": 2023, "rate": "21.0%", "note": "" }
+      {
+        "year": 2023,
+        "rate": "21.0%",
+        "note": ""
+      }
     ],
-    "next_deadline": "2025-11-20",
-    "deadline_note": "2026 Cycle (Est)",
+    "next_deadline": "2026-11-20",
+    "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2026-06-01",
     "location": "TBD",
     "topics": [
@@ -30,16 +37,24 @@
     "full_name": "IEEE/ACM International Symposium on Microarchitecture",
     "ccf_rank": "A",
     "field": "Arch",
-    "sub_tags": ["Microarch", "Hardware", "Security"],
+    "sub_tags": [
+      "Microarch",
+      "Hardware",
+      "Security"
+    ],
     "website": "https://www.microarch.org/",
     "description": "微架构领域的顶级会议。",
     "difficulty": "Top (极难)",
     "preference": "关注处理器微架构创新。硬件安全（如 Rowhammer, Spectre）是重要分支。",
     "acceptance_rates": [
-      { "year": 2023, "rate": "23.0%", "note": "" }
+      {
+        "year": 2023,
+        "rate": "23.0%",
+        "note": ""
+      }
     ],
-    "next_deadline": "2025-04-15",
-    "deadline_note": "2025 Cycle (Est)",
+    "next_deadline": "2026-04-15",
+    "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2025-10-01",
     "location": "TBD",
     "topics": [
@@ -54,16 +69,23 @@
     "full_name": "IEEE International Symposium on High Performance Computer Architecture",
     "ccf_rank": "A",
     "field": "Arch",
-    "sub_tags": ["HPC", "Architecture"],
+    "sub_tags": [
+      "HPC",
+      "Architecture"
+    ],
     "website": "https://hpca-conf.org/",
     "description": "高性能体系结构顶会。",
     "difficulty": "Top (极难)",
     "preference": "高性能计算系统设计。对低温超导计算（Cryogenic Computing）和光计算有一定接受度。",
     "acceptance_rates": [
-      { "year": 2023, "rate": "25.0%", "note": "" }
+      {
+        "year": 2023,
+        "rate": "25.0%",
+        "note": ""
+      }
     ],
-    "next_deadline": "2025-07-25",
-    "deadline_note": "2026 Cycle (Est)",
+    "next_deadline": "2026-07-25",
+    "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2026-02-25",
     "location": "TBD",
     "topics": [
@@ -78,16 +100,24 @@
     "full_name": "Design Automation Conference",
     "ccf_rank": "A",
     "field": "EDA",
-    "sub_tags": ["EDA", "Hardware", "AI"],
+    "sub_tags": [
+      "EDA",
+      "Hardware",
+      "AI"
+    ],
     "website": "https://www.dac.com/",
     "description": "电子设计自动化 (EDA) 和嵌入式系统的旗舰会议。",
     "difficulty": "Top (极难)",
     "preference": "芯片设计流程、EDA 工具、低功耗设计。AI for EDA 和 EDA for AI 是双向热点。",
     "acceptance_rates": [
-      { "year": 2023, "rate": "23.0%", "note": "" }
+      {
+        "year": 2023,
+        "rate": "23.0%",
+        "note": ""
+      }
     ],
-    "next_deadline": "2025-11-20",
-    "deadline_note": "2026 Cycle (Est)",
+    "next_deadline": "2026-11-20",
+    "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2026-06-20",
     "location": "San Francisco, USA",
     "topics": [
@@ -102,16 +132,24 @@
     "full_name": "Architectural Support for Programming Languages and Operating Systems",
     "ccf_rank": "A",
     "field": "Arch",
-    "sub_tags": ["System", "Arch", "PL"],
+    "sub_tags": [
+      "System",
+      "Arch",
+      "PL"
+    ],
     "website": "https://asplos-conference.org/",
     "description": "体系结构、操作系统和编程语言的交叉顶会。",
     "difficulty": "Top (极难)",
     "preference": "软硬协同设计（Co-design）。非常适合发 AI 软硬件栈优化、超导控制系统等交叉工作。",
     "acceptance_rates": [
-      { "year": 2023, "rate": "21.0%", "note": "Multiple deadlines" }
+      {
+        "year": 2023,
+        "rate": "21.0%",
+        "note": "Multiple deadlines"
+      }
     ],
-    "next_deadline": "2025-02-28",
-    "deadline_note": "2026 Spring Cycle",
+    "next_deadline": "2026-02-28",
+    "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2026-03-01",
     "location": "TBD",
     "topics": [
@@ -126,16 +164,23 @@
     "full_name": "IEEE International Conference on Communications",
     "ccf_rank": "C",
     "field": "Comm",
-    "sub_tags": ["Network", "Hardware"],
+    "sub_tags": [
+      "Network",
+      "Hardware"
+    ],
     "website": "https://icc2025.ieee-icc.org/",
     "description": "通信领域的旗舰会议。",
     "difficulty": "Mid (中等)",
     "preference": "虽然是通信会，但收录大量关于物理层安全、无线传感硬件的工作。",
     "acceptance_rates": [
-      { "year": 2023, "rate": "38.0%", "note": "" }
+      {
+        "year": 2023,
+        "rate": "38.0%",
+        "note": ""
+      }
     ],
-    "next_deadline": "2025-10-15",
-    "deadline_note": "2026 Cycle (Est)",
+    "next_deadline": "2026-10-15",
+    "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2026-06-01",
     "location": "TBD",
     "topics": [
@@ -150,13 +195,20 @@
     "full_name": "Applied Superconductivity Conference",
     "ccf_rank": "N/A",
     "field": "Super",
-    "sub_tags": ["Superconducting", "Physics"],
+    "sub_tags": [
+      "Superconducting",
+      "Physics"
+    ],
     "website": "https://appliedsuperconductivity.org/",
     "description": "应用超导领域的顶级会议（非 CCF 列表，但领域内最重要）。",
     "difficulty": "High (专业)",
     "preference": "超导电子学、量子计算硬件、超导磁体。",
     "acceptance_rates": [
-      { "year": 2022, "rate": "N/A", "note": "Biennial" }
+      {
+        "year": 2022,
+        "rate": "N/A",
+        "note": "Biennial"
+      }
     ],
     "next_deadline": "2026-01-15",
     "deadline_note": "2026 Cycle (Est)",

@@ -37,7 +37,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add data/conferences.json data/papers.json
+        git add data/conferences.json data/arch_conf.json data/papers.json
         # Only commit if there are changes
         if git diff --staged --quiet; then
           echo "No changes to commit"

@@ -102,10 +102,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-05-30",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-10-01",
-    "location": "Sacramento, USA",
+    "next_deadline": "2026-03-26",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "October 12 - 16, 2026",
+    "location": "Munich, Germany",
     "topics": [
       "Automated Reasoning",
       "AI-driven SE Tools",
@@ -173,10 +173,10 @@
         "note": "Multiple rounds"
       }
     ],
-    "next_deadline": "2026-04-15",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-10-20",
-    "location": "Singapore",
+    "next_deadline": "2026-03-17",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "October 3-9, 2026",
+    "location": "Oakland, California, United States",
     "topics": [
       "Program Analysis",
       "Compiler Verification",
@@ -238,10 +238,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-03-01",
-    "deadline_note": "2026 Cycle (Est)",
-    "conference_date": "2026-09-01",
-    "location": "TBD",
+    "next_deadline": "2026-03-06",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "September 14-18, 2026",
+    "location": "Benevento, Italy",
     "topics": [
       "Software Maintenance",
       "Evolutionary Analysis",
@@ -307,10 +307,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-05-15",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-10-13",
-    "location": "Taipei, Taiwan",
+    "next_deadline": "2026-01-14",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "November 15-19, 2026",
+    "location": "World Forum, Hague, Netherlands",
     "topics": [
       "Machine Learning Security",
       "Software Security",
@@ -452,9 +452,9 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-02-13",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-08-17",
+    "next_deadline": "2026-02-12",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "August 17-20, 2026",
     "location": "Santa Barbara, USA",
     "topics": [
       "Cryptographic Protocols",
@@ -483,10 +483,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-05-15",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-09-22",
-    "location": "TBD",
+    "next_deadline": "2026-01-09",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "September, 2026",
+    "location": "Rome, Italy",
     "topics": [
       "Formal Security",
       "Network Security",
@@ -621,10 +621,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-01-15",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-08-16",
-    "location": "Montreal, Canada",
+    "next_deadline": "2026-01-19",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "August 15-21, 2026",
+    "location": "Bremen, Germany",
     "topics": [
       "AI Safety & Security",
       "Machine Learning",
@@ -723,10 +723,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-01-26",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-07-13",
-    "location": "Canada",
+    "next_deadline": "2026-01-29",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "July 6-12, 2026",
+    "location": "Seoul, Korea",
     "topics": [
       "Machine Learning",
       "Deep Learning",

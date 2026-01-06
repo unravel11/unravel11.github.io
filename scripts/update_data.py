@@ -1,30 +1,44 @@
 import json
 import datetime
 import os
+import io
+import zipfile
 import requests
 import yaml
 import re
 
-# Configuration
 DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/conferences.json')
-CCF_DEADLINES_URL = "https://raw.githubusercontent.com/ccf-ddl/ccf-deadlines/main/conference/all.yml"
+ARCH_DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/arch_conf.json')
+CCF_DEADLINES_URL = "https://github.com/ccfddl/ccf-deadlines/archive/refs/heads/main.zip"
 
-def load_local_data():
-    with open(DATA_FILE, 'r', encoding='utf-8') as f:
+def load_local_data(path):
+    with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def save_local_data(data):
-    with open(DATA_FILE, 'w', encoding='utf-8') as f:
+def save_local_data(data, path):
+    with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"Successfully saved to {DATA_FILE}")
+    print(f"Successfully saved to {path}")
 
 def fetch_ccf_data():
     print("Fetching data from ccf-deadlines...")
     try:
-        response = requests.get(CCF_DEADLINES_URL, timeout=10)
+        response = requests.get(CCF_DEADLINES_URL, timeout=30)
         response.raise_for_status()
-        # CCF YAML is a list of objects
-        return yaml.safe_load(response.text)
+        zf = zipfile.ZipFile(io.BytesIO(response.content))
+        entries = []
+        for name in zf.namelist():
+            if "/conference/" in name and name.endswith(".yml"):
+                with zf.open(name) as f:
+                    content = f.read().decode("utf-8")
+                    data = yaml.safe_load(content)
+                    if isinstance(data, dict) and "title" in data:
+                        entries.append(data)
+                    elif isinstance(data, list):
+                        for item in data:
+                            if isinstance(item, dict) and "title" in item:
+                                entries.append(item)
+        return entries
     except Exception as e:
         print(f"Error fetching CCF data: {e}")
         return []
@@ -92,53 +106,33 @@ def predict_next_deadline(last_deadline):
     next_date = last_deadline + datetime.timedelta(days=365)
     return next_date
 
-def update_conferences():
-    local_data = load_local_data()
-    ccf_data = fetch_ccf_data()
-    
-    # Create a lookup map for CCF data by title (uppercase)
-    ccf_map = {entry['title'].upper(): entry for entry in ccf_data if 'title' in entry}
-    
-    today = datetime.date.today()
+def update_single_dataset(local_data, ccf_map, today):
     updates_count = 0
-    
     for conf in local_data:
         conf_id = conf.get('title', '').upper()
-        # Some mapping fixes if ids differ
         if conf_id == 'S&P (OAKLAND)': conf_id = 'SP'
         if conf_id == 'USENIX SEC': conf_id = 'USENIX-SECURITY'
-        if conf_id == 'FSE': conf_id = 'ESEC/FSE' # CCF often uses ESEC/FSE
-        
+        if conf_id == 'FSE': conf_id = 'ESEC/FSE'
         ccf_entry = ccf_map.get(conf_id)
-        
         if ccf_entry:
             deadline, conf_date, location = get_future_deadline(ccf_entry)
-            
             if deadline:
                 deadline_str = deadline.strftime("%Y-%m-%d")
-                
-                # Logic:
-                # 1. If we found a FUTURE deadline from CCF, use it directly.
-                # 2. If the deadline from CCF is PAST, we predict next year.
-                
                 if deadline >= today:
                     if conf.get('next_deadline') != deadline_str:
                         conf['next_deadline'] = deadline_str
                         conf['deadline_note'] = "Verified (Source: CCF)"
-                        if location: conf['location'] = location
-                        if conf_date: conf['conference_date'] = str(conf_date)
+                        if location:
+                            conf['location'] = location
+                        if conf_date:
+                            conf['conference_date'] = str(conf_date)
                         updates_count += 1
                         print(f"Updated {conf['title']} to {deadline_str} (Source)")
                 else:
-                    # The latest data in CCF is already past.
-                    # We check if our local data is also past.
                     local_deadline = parse_date(conf.get('next_deadline'))
-                    
                     if local_deadline and local_deadline < today:
-                        # Both local and CCF are past -> Predict next year based on CCF last date
                         predicted = predict_next_deadline(deadline)
                         predicted_str = predicted.strftime("%Y-%m-%d")
-                        
                         if conf.get('next_deadline') != predicted_str:
                             conf['next_deadline'] = predicted_str
                             conf['deadline_note'] = "Expected (Auto-predicted)"
@@ -147,8 +141,6 @@ def update_conferences():
             else:
                 print(f"No deadline found in CCF for {conf['title']}")
         else:
-            # Fallback for conferences not in CCF DB or named differently
-            # Check if local deadline is past, if so, predict +1 year
             local_deadline = parse_date(conf.get('next_deadline'))
             if local_deadline and local_deadline < today:
                 predicted = predict_next_deadline(local_deadline)
@@ -156,11 +148,26 @@ def update_conferences():
                 conf['deadline_note'] = "Expected (Auto-predicted)"
                 updates_count += 1
                 print(f"Predicted {conf['title']} (Local-based) to {conf['next_deadline']}")
+    return updates_count
 
-    if updates_count > 0:
-        save_local_data(local_data)
-        print(f"Total updates: {updates_count}")
-    else:
+def update_conferences():
+    ccf_data = fetch_ccf_data()
+    ccf_map = {entry['title'].upper(): entry for entry in ccf_data if 'title' in entry}
+    today = datetime.date.today()
+    total_updates = 0
+    local_data = load_local_data(DATA_FILE)
+    updates_main = update_single_dataset(local_data, ccf_map, today)
+    if updates_main > 0:
+        save_local_data(local_data, DATA_FILE)
+        print(f"Total updates for conferences.json: {updates_main}")
+        total_updates += updates_main
+    arch_data = load_local_data(ARCH_DATA_FILE)
+    updates_arch = update_single_dataset(arch_data, ccf_map, today)
+    if updates_arch > 0:
+        save_local_data(arch_data, ARCH_DATA_FILE)
+        print(f"Total updates for arch_conf.json: {updates_arch}")
+        total_updates += updates_arch
+    if total_updates == 0:
         print("No updates needed.")
 
 if __name__ == "__main__":
