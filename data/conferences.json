@@ -140,8 +140,8 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-01-29",
-    "deadline_note": "2026 Cycle (Est)",
+    "next_deadline": "2027-01-29",
+    "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2026-07-01",
     "location": "TBD",
     "topics": [
@@ -723,8 +723,8 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-01-29",
-    "deadline_note": "Verified (Source: CCF)",
+    "next_deadline": "2027-01-29",
+    "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "July 6-12, 2026",
     "location": "Seoul, Korea",
     "topics": [
