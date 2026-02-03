@@ -53,10 +53,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-04-15",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-10-01",
-    "location": "TBD",
+    "next_deadline": "2026-04-07",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "October 31-November 4, 2026",
+    "location": "Athens, Greece",
     "topics": [
       "Microarchitecture Security",
       "Neural Network Accelerators",
