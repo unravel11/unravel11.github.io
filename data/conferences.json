@@ -691,10 +691,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-05-15",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-12-01",
-    "location": "San Diego, USA",
+    "next_deadline": "2026-05-07",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "December 6, 2026",
+    "location": "Sydney, Australia",
     "topics": [
       "Deep Learning",
       "Reinforcement Learning",
