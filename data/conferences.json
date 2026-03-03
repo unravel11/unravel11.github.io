@@ -546,10 +546,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-04-24",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-10-01",
-    "location": "TBD",
+    "next_deadline": "2026-04-16",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "October 11-14, 2026",
+    "location": "Lancaster, UK",
     "topics": [
       "Malware Analysis",
       "Intrusion Detection",
@@ -787,10 +787,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-06-15",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-11-01",
-    "location": "TBD",
+    "next_deadline": "2026-05-25",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "October 24 - 29, 2026",
+    "location": "Budapest, Hungary",
     "topics": [
       "Empirical NLP",
       "LLM Evaluation",
