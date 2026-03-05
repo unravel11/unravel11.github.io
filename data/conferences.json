@@ -26,10 +26,10 @@
         "note": "208/796"
       }
     ],
-    "next_deadline": "2026-10-01",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2026-05-01",
-    "location": "Rio de Janeiro, Brazil",
+    "next_deadline": "2026-06-30",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "April 25-May 01, 2027",
+    "location": "Dublin, Ireland",
     "topics": [
       "AI for Software Engineering",
       "Software Testing & Analysis",
