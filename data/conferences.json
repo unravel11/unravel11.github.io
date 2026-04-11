@@ -421,10 +421,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-04-18",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2026-02-24",
-    "location": "San Diego, USA",
+    "next_deadline": "2026-05-06",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "TBD",
+    "location": "TBD",
     "topics": [
       "Adversarial Machine Learning",
       "Network Security",
