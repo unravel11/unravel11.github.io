@@ -1,602 +1,604 @@
 [
   {
-    "id": "arxiv-2604.26951v1",
-    "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
-    "authors": "Gongbo Zhang, Wen Wang, Ye Tian et al.",
+    "id": "arxiv-2604.28191v1",
+    "title": "Observation of Vinen turbulence during far-from-equilibrium Bose-Einstein condensation",
+    "authors": "Sebastian J. Morris, Martin Gazo, Simon M. Fischer et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26951v1",
-    "summary": "[AI 摘要] Diffusion large language models (dLLMs) offer parallel decoding and bidirectional context, but state-of-the-art dLLMs require billions of parameters f...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28191v1",
+    "summary": "[AI 摘要] Relaxation of far-from-equilibrium quantum fluids, intimately related to the emergence of long-range order, is theoretically associated with the decay...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.28178v1",
+    "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
+    "authors": "Lincan Li, Zheng Chen, Yushun Dong",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28178v1",
+    "summary": "[AI 摘要] Electroencephalogram (EEG) signals are vital for automated seizure detection, but their inherent noise makes robust representation learning challengin...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26947v1",
-    "title": "Large quantum dot energy level shifts in anomalous photon-assisted tunneling",
-    "authors": "Jared Benson, C. E. Sturner, A. R. Huffman et al.",
+    "id": "arxiv-2604.28176v1",
+    "title": "Defending Quantum Classifiers against Adversarial Perturbations through Quantum Autoencoders",
+    "authors": "Emma Andrews, Sahan Sanjaya, Prabhat Mishra",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26947v1",
-    "summary": "[AI 摘要] Orbital energy splittings are important quantum dot parameters for the operation of hole spin qubits. They are known to depend on the lateral confinem...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28176v1",
+    "summary": "[AI 摘要] Machine learning models can learn from data samples to carry out various tasks efficiently. When data samples are adversarially manipulated, such as b...",
+    "tags": [
+      "AI+Security",
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.28160v1",
+    "title": "Reorganizing Quantum Measurement Records Improves Time-Series Prediction",
+    "authors": "Markus Baumann, Maximilian Zorn, Thomas Gabor et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28160v1",
+    "summary": "[AI 摘要] Near-term quantum computers are accessed through repeated circuit executions, which produce finite measurement records rather than exact deterministic...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26945v1",
-    "title": "Simulating dynamics of RLC circuits with a quantum differential-algebraic equations solver",
-    "authors": "Arkopal Dutt, Anirban Chowdhury, Kristan Temme et al.",
+    "id": "arxiv-2604.28157v1",
+    "title": "FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption",
+    "authors": "Yanting Wang, Chenlong Yin, Ying Chen et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26945v1",
-    "summary": "[AI 摘要] We introduce a quantum algorithm for simulating the dynamics of electrical circuits consisting of resistors, inductors and capacitors (aka RLC circuit...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26927v1",
-    "title": "The most discriminable quantum states in the multicopy regime",
-    "authors": "Maria Kvashchuk, Polina Chernyshova, Lucas E. A. Porto et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26927v1",
-    "summary": "[AI 摘要] This work investigates which sets of quantum states give rise to the highest achievable success probability in minimum-error state discrimination if m...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26923v1",
-    "title": "ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation",
-    "authors": "Yeheng Chen, Chaoxiang Xie, Yuling Shi et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26923v1",
-    "summary": "[AI 摘要] LLMs have achieved strong results on both function-level code synthesis and repository-level code modification, yet a capability that falls between th...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28157v1",
+    "summary": "[AI 摘要] Long-context large language models (LLMs)-for example, Gemini-3.1-Pro and Qwen-3.5-are widely used to empower many real-world applications, such as re...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26921v1",
-    "title": "En Route to a Standard QMA1 vs. QCMA Oracle Separation",
-    "authors": "David Miloschewsky, Supartha Podder, Dorian Rudolph",
+    "id": "arxiv-2604.28155v1",
+    "title": "Optimal current-based sensing of phonon temperature using a finite reservoir",
+    "authors": "Sindre Brattegard, Stephanie Matern, Mark T. Mitchison et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26921v1",
-    "summary": "[AI 摘要] We study the power of quantum witnesses under perfect completeness. We construct a classical oracle relative to which a language lies in $\\mathsf{QMA}...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28155v1",
+    "summary": "[AI 摘要] In realistic nanoscale transport set-ups, electron-phonon coupling leads to the exchange of heat between phonon baths and electronic reservoirs with f...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26914v1",
-    "title": "Digital Simulation of Non-Hermitian Knotted Bands on Quantum Hardware",
-    "authors": "Truman Yu Ng, Yuzhu Wang, Wei Jie Chan et al.",
+    "id": "arxiv-2604.28151v1",
+    "title": "Domain-wall melting in all-to-all QSSEP from random-matrix theory",
+    "authors": "Denis Bernard, Lorenzo Piroli, Stefano Scopa",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26914v1",
-    "summary": "[AI 摘要] Knots and links represent a fundamental motif of non-local connectivity that permeates the physical sciences from string theory to protein folds. Whil...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28151v1",
+    "summary": "[AI 摘要] We study the melting of a domain wall in the quantum simple exclusion process with all-to-all hoppings (a.k.a. the charged SYK$_2$ model). We show tha...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26909v1",
-    "title": "Cavity-mediated coherence protection and one-axis twisting for spins in solids",
-    "authors": "Rikuto Fukumori, Chengyi Luo, Alexey Tiranov et al.",
+    "id": "arxiv-2604.28146v1",
+    "title": "Unsafe and Unused? A History of Utility Code in Mature Open Source Projects",
+    "authors": "Brandon Keller, Kaitlin Yandik, Angela Ngo et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26909v1",
-    "summary": "[AI 摘要] Long-range interactions between emitters give rise to collective phenomena, including superradiance, spin squeezing, and coherence protection, that ar...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26904v1",
-    "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
-    "authors": "Fei Bai, Huatong Song, Shuang Sun et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26904v1",
-    "summary": "[AI 摘要] Claw-style environments support multi-step workflows over local files, tools, and persistent workspace states. However, scalable development around th...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28146v1",
+    "summary": "[AI 摘要] Filenames are a concise means of conveying information about source code to fellow developers. One such convention is util. Commonly understood to sta...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26900v1",
-    "title": "Strict Hierarchy for Quantum Channel Certification to Unitary",
-    "authors": "Kean Chen, Qisheng Wang, Zhicheng Zhang",
+    "id": "arxiv-2604.28139v1",
+    "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+    "authors": "Chenxin Li, Zhengyang Tang, Huangxin Lin et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26900v1",
-    "summary": "[AI 摘要] We consider the problem of quantum channel certification to unitary, where one is given access to an unknown $d$-dimensional channel $\\mathcal{E}$, an...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26878v1",
-    "title": "A Gaussian asymmetry measure",
-    "authors": "Riccardo Travaglino, Pasquale Calabrese",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26878v1",
-    "summary": "[AI 摘要] The study of Entanglement Asymmetry has emerged in recent years as a powerful tool to characterise the symmetry properties of quantum states in relati...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26874v1",
-    "title": "Convex combinations of bosonic pure-loss channels",
-    "authors": "Giuseppe Catalano, Marco Fanizza, Francesco Anna Mele et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26874v1",
-    "summary": "[AI 摘要] The pure-loss channel is a fundamental model for describing noise in bosonic quantum platforms. It is characterised by a single parameter, the transmi...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26865v1",
-    "title": "MLMC-qDRIFT: Multilevel Variance Reduction for Randomized Quantum Hamiltonian Simulation",
-    "authors": "Pegah Mohammadipour, Xiantao Li",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26865v1",
-    "summary": "[AI 摘要] Simulating quantum dynamics is one of the central applications of quantum computing. For Hamiltonians written as a sum of many terms, deterministic Tr...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26862v1",
-    "title": "Non-local Tunneling Spectroscopy of Inelastic Quasiparticle Relaxation in Superconducting 1-D Wires",
-    "authors": "Kevin M. Ryan, Detlef Beckmann, Venkat Chandrasekhar",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26862v1",
-    "summary": "[AI 摘要] Non-local conductance experiments using tunnel junctions can provide valuable spectroscopic information on both the transport and relaxation of quasip...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26861v1",
-    "title": "Protein folding on a 64 qubit trapped-ion hardware via counterdiabatic quantum optimization",
-    "authors": "Alejandro Gomez Cadavid, Pavle Nikačević, Pranav Chandarana et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26861v1",
-    "summary": "[AI 摘要] We report the largest trapped-ion hardware demonstration of lattice protein-folding optimization to date, using bias-field digitized counterdiabatic q...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26856v1",
-    "title": "Fluctuations of path-dependent thermodynamic quantities in open quantum systems via two-point system-only measurements",
-    "authors": "Alessandra Colla, Andrea Smirne, Heinz-Peter Breuer et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26856v1",
-    "summary": "[AI 摘要] We propose a method to evaluate general thermodynamic fluctuations in open quantum systems, based on performing a two-point measurement scheme on the ...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26855v1",
-    "title": "Cognitive Atrophy and Systemic Collapse in AI-Dependent Software Engineering",
-    "authors": "Frank Ginac",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26855v1",
-    "summary": "[AI 摘要] The integration of Large Language Models (LLMs) into the software development lifecycle (SDLC) masks a critical socio-technical failure: Cognitive-Sys...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28139v1",
+    "summary": "[AI 摘要] LLM agents are expected to complete end-to-end units of work across software tools, business services, and local workspaces. Yet many agent benchmarks...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26834v1",
-    "title": "Quantum Feature Selection with Higher-Order Binary Optimization on Trapped-Ion Hardware",
-    "authors": "Carlos Flores-Garrigós, Anton Simen, Qi Zhang et al.",
+    "id": "arxiv-2604.28138v1",
+    "title": "Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes",
+    "authors": "Tianyuan Wu, Chaokun Chang, Lunxi Cao et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26834v1",
-    "summary": "[AI 摘要] We present a quantum feature-selection framework based on a higher-order unconstrained binary optimization (HUBO) formulation that explicitly incorpor...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26821v1",
-    "title": "Exploring the Efficiency of 3D-Stacked AI Chip Architecture for LLM Inference with Voxel",
-    "authors": "Yiqi Liu, Noelle Crawford, Michael Wang et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26821v1",
-    "summary": "[AI 摘要] To overcome the well-known memory bottleneck of AI chips, 3D stacked architectures that employ advanced packaging technology with high-density through...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28138v1",
+    "summary": "[AI 摘要] Autonomous agents act through sandboxed containers and microVMs whose state spans filesystems, processes, and runtime artifacts. Checkpoint and restor...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26816v1",
-    "title": "Gouy phase engineering of self-splitting quantum correlations",
-    "authors": "A. L. S. Santos Junior, M. Damaceno, A. C. Barbosa et al.",
+    "id": "arxiv-2604.28137v1",
+    "title": "Weak-to-Strong Measurement Transition with Thermal Instabilities",
+    "authors": "Marcos V. S. Lima, Carlos H. S. Vieira, Irismar G. da Paz et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26816v1",
-    "summary": "[AI 摘要] In this work, we demonstrate the effect of self-splitting spatial quantum correlations induced by Gouy phase engineering. In the process of spontaneou...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28137v1",
+    "summary": "[AI 摘要] Quantum measurement is physically realized through a finite dynamical interaction between a system and a measuring apparatus, giving rise to a continu...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26813v1",
-    "title": "Classical simulation of free-fermionic dynamics and quantum chemistry with magic input",
-    "authors": "Changhun Oh, Michał Oszmaniec, Oliver Reardon-Smith et al.",
+    "id": "arxiv-2604.28129v1",
+    "title": "Latent Adversarial Detection: Adaptive Probing of LLM Activations for Multi-Turn Attack Detection",
+    "authors": "Prashant Kulkarni",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26813v1",
-    "summary": "[AI 摘要] Establishing the precise computational boundary between classically tractable fermionic systems and those capable of genuine quantum advantage is a ce...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26805v1",
-    "title": "Bian Que: An Agentic Framework with Flexible Skill Arrangement for Online System Operations",
-    "authors": "Bochao Liu, Zhipeng Qian, Yang Zhao et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26805v1",
-    "summary": "[AI 摘要] Operating and maintaining (O&M) large-scale online engine systems (search, recommendation, advertising) demands substantial human effort for release m...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28129v1",
+    "summary": "[AI 摘要] Multi-turn prompt injection follows a known attack path -- trust-building, pivoting, escalation but text-level defenses miss covert attacks where indi...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26792v1",
-    "title": "Fault-Tolerant Resource Comparison of Qudit and Qubit Encodings for Diagonal Quadratic Operators",
-    "authors": "Samuel Godwood, Doğa Murat Kürkçüoğlu, Gabriel N. Perdue et al.",
+    "id": "arxiv-2604.28127v1",
+    "title": "Nodal algebraic curves and entropy diagnostics in degenerate two-dimensional harmonic-oscillator shells",
+    "authors": "C A Escobar Ruiz, H Olivares-Pilon, A M Escobar-Ruiz",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26792v1",
-    "summary": "[AI 摘要] Finite local Hilbert-space truncations arise naturally in quantum simulations of lattice field theories and motivate qudit encodings, but their fault-...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28127v1",
+    "summary": "[AI 摘要] Degenerate quantum eigenspaces can support substantial changes in nodal geometry at fixed energy. We show that, for the two-dimensional isotropic harm...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26791v1",
-    "title": "Chip-to-chip entanglement distribution over 80-km multicore fiber link",
-    "authors": "Damien Roux, Giulia Guarda, Mujtaba Zahidy et al.",
+    "id": "arxiv-2604.28123v1",
+    "title": "PRISM: Pre-alignment via Black-box On-policy Distillation for Multimodal Reinforcement Learning",
+    "authors": "Sudong Wang, Weiquan Huang, Xiaomin Yu et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26791v1",
-    "summary": "[AI 摘要] Long-range quantum entanglement is essential for building large-scale quantum networks and unconditionally secure cryptographic systems based on quant...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26790v1",
-    "title": "Optical squeezing mediated by levitated oscillators at their quantum ground state",
-    "authors": "A. Pontin, Q. Deplano, F. Marino et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26790v1",
-    "summary": "[AI 摘要] We demonstrate optical squeezing below the shot-noise level generated through the interaction of an optical cavity field with two center-of-mass modes...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26788v1",
-    "title": "A Semantic Quantum Circuit Cache for Scalable and Distributed Quantum-Classical Workflows",
-    "authors": "Mar Tejedor, Javier Conejero, Rosa M. Badia",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26788v1",
-    "summary": "[AI 摘要] Hybrid quantum--classical workflows often execute large ensembles of circuits that differ syntactically but implement identical operations, leading to...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26766v1",
-    "title": "Domain-Adapted Small Language Models for Reliable Clinical Triage",
-    "authors": "Manar Aljohani, Brandon Ho, Kenneth McKinley et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26766v1",
-    "summary": "[AI 摘要] Accurate and consistent Emergency Severity Index (ESI) assignment remains a persistent challenge in emergency departments, where highly variable free-...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28123v1",
+    "summary": "[AI 摘要] The standard post-training recipe for large multimodal models (LMMs) applies supervised fine-tuning (SFT) on curated demonstrations followed by reinfo...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26733v1",
-    "title": "FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards",
-    "authors": "Zhixin Han, Yanzhi Zhang, Chuyang Wei et al.",
+    "id": "arxiv-2604.28121v1",
+    "title": "Quantum Lattice Boltzmann Solutions for Transport under 3D Spatially Varying Advection on Trapped Ion Hardware",
+    "authors": "Sayonee Ray, Jezer Jojo, Jason Iaconis et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26733v1",
-    "summary": "[AI 摘要] Live future prediction refers to the task of making predictions about real-world events before they unfold. This task is increasingly studied using la...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28121v1",
+    "summary": "[AI 摘要] The Quantum Lattice Boltzmann Method (QLBM) has emerged as one of the most promising quantum computing approaches for the numerical simulation of prob...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.28119v1",
+    "title": "Do Sparse Autoencoders Capture Concept Manifolds?",
+    "authors": "Usha Bhalla, Thomas Fel, Can Rager et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28119v1",
+    "summary": "[AI 摘要] Sparse autoencoders (SAEs) are widely used to extract interpretable features from neural network representations, often under the implicit assumption ...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.28093v1",
+    "title": "What Makes a Good Terminal-Agent Benchmark Task: A Guideline for Adversarial, Difficult, and Legible Evaluation Design",
+    "authors": "Ivan Bercovich",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28093v1",
+    "summary": "[AI 摘要] Terminal-agent benchmarks have become a primary signal for measuring the coding and system-administration capabilities of large language models. As th...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26716v1",
-    "title": "Delayed Choice Phenomena in the Projection Evolution Model",
-    "authors": "Marek Góźdź, Andrzej Góźdź, Krzysztof Lider",
+    "id": "arxiv-2604.28089v1",
+    "title": "Source-independent quantum key distribution without pre-sending entanglement",
+    "authors": "Rong-Zheng Liu, Hua-Lei Yin",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26716v1",
-    "summary": "[AI 摘要] In the Schrödinger evolution of a quantum state time enters as a real parameter representing the coordinate. In a more consistent approach time should...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28089v1",
+    "summary": "[AI 摘要] Quantum key distribution (QKD) theoretically offers information-theoretic security. The prevailing approach is the prepare-and-measure BB84 protocol, ...",
     "tags": [
+      "AI+Security",
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26711v1",
-    "title": "Observation of Non-Markovian Evolution of Tripartite Quantum Steering",
-    "authors": "Yan Wang, Shao-qi Lin, Rui-qi Shen et al.",
+    "id": "arxiv-2604.28087v1",
+    "title": "Towards Neuro-symbolic Causal Rule Synthesis, Verification, and Evaluation Grounded in Legal and Safety Principles",
+    "authors": "Zainab Rehan, Christian Medeiros Adriano, Sona Ghahremani et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26711v1",
-    "summary": "[AI 摘要] The memory effects in open quantum systems can induce information backflow and revive quantum correlations, thereby providing a powerful way to protec...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26703v1",
-    "title": "A self-evolving agent for explainable diagnosis of DFT-experiment band-gap mismatch",
-    "authors": "Yue Li, Bijun Tang",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26703v1",
-    "summary": "[AI 摘要] Standard density functional theory (DFT) routinely misclassifies the electronic ground state of correlated and structurally complex compounds, predict...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28087v1",
+    "summary": "[AI 摘要] Rule-based systems remain central in safety-critical domains but often struggle with scalability, brittleness, and goal misspecification. These limita...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26692v1",
-    "title": "Towards Quantum Optimised Malware Containment",
-    "authors": "Matthew Sutcliffe, Ravindra Mutyamsetty",
+    "id": "arxiv-2604.28082v1",
+    "title": "Characterizing the Consistency of the Emergent Misalignment Persona",
+    "authors": "Anietta Weckauff, Yuchen Zhang, Maksym Andriushchenko",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26692v1",
-    "summary": "[AI 摘要] The containment of malware in computing networks may be naturally formulated as a network influence minimisation problem, in which one seeks to limit ...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26686v1",
-    "title": "When Model Editing Meets Service Evolution: A Knowledge-Update Perspective for Service Recommendation",
-    "authors": "Guodong Fan, Cuiyun Gao, Chun Yong Chong et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26686v1",
-    "summary": "[AI 摘要] The rapid evolution of software services poses substantial challenges to the design and implementation of effective recommendation systems. Traditiona...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28082v1",
+    "summary": "[AI 摘要] Fine-tuning large language models (LLMs) on narrowly misaligned data generalizes to broadly misaligned behavior, a phenomenon termed emergent misalign...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26675v1",
-    "title": "Parameterized Quantum Circuits as Feature Maps: Representation Quality and Readout Effects in Multispectral Land-Cover Classification",
-    "authors": "Ralntion Komini, Aikaterini Mandilara, Georgios Maragkopoulos et al.",
+    "id": "arxiv-2604.28081v1",
+    "title": "g-tensor Optimization in Ge/SiGe Quantum Dots",
+    "authors": "Aram Shojaei, Edmondo Valvo, Maximilian Rimbach-Russ et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26675v1",
-    "summary": "[AI 摘要] We investigate variational quantum classifiers (VQCs) for land-cover classification from multispectral satellite imagery, adopting a feature-map persp...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28081v1",
+    "summary": "[AI 摘要] Planar germanium heterostructures hosting hole-spin qubits are among the leading platforms for scalable semiconductor-based quantum computing. Yet, de...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26667v1",
-    "title": "Will It Break in Production? Metric-Driven Prediction of Residual Defects in Python Systems",
-    "authors": "Giuseppe De Rosa, Pietro Liguori",
+    "id": "arxiv-2604.28076v1",
+    "title": "TopBench: A Benchmark for Implicit Prediction and Reasoning over Tabular Question Answering",
+    "authors": "An-Yang Ji, Jun-Peng Jiang, De-Chuan Zhan et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26667v1",
-    "summary": "[AI 摘要] Python's dynamic nature complicates testing and increases the possibility that some defects evade detection, so an effective fault prediction becomes ...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28076v1",
+    "summary": "[AI 摘要] Large Language Models (LLMs) have advanced Table Question Answering, where most queries can be answered by extracting information or simple aggregatio...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26663v1",
-    "title": "Hardware-Efficient Hamiltonian Simulation via Trotter-Initialized Variational Optimization with Native Placement",
-    "authors": "F. S. Luiz, P. N. Ferreira, M. C. de Oliveira",
+    "id": "arxiv-2604.28075v1",
+    "title": "Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling",
+    "authors": "Ansar Aynetdinov, Patrick Haller, Alan Akbik",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26663v1",
-    "summary": "[AI 摘要] Compiling time-evolution operators of the form $U(t)=e^{-iHt}$ into hardware-native gate sequences is a central bottleneck for digital quantum simulat...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26647v1",
-    "title": "Nonclassical traits in multi-copy state discrimination",
-    "authors": "Tim Achenbach, Leevi Leppäjärvi, Hanwool Lee et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26647v1",
-    "summary": "[AI 摘要] Quantum state discrimination is a fundamental information processing task that serves as a building block for numerous applications and provides impli...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26642v1",
-    "title": "Least constraint approach to non-relativistic quantum mechanics",
-    "authors": "Ning Liu",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26642v1",
-    "summary": "[AI 摘要] We formulate a variational principle for non-relativistic quantum mechanics inspired by Gauss's principle of least constraint. We define a quantum con...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26639v1",
-    "title": "The temperature dependent geometric phase",
-    "authors": "Zheng-Chuan Wang",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26639v1",
-    "summary": "[AI 摘要] There exists a geometric phase for a quantum state during the adiabatic evolution of the system. If the adiabatic procedure happens between the system...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26638v1",
-    "title": "Emergence of $π$ from Equatorial Quantum Localization",
-    "authors": "Bin Ye, Ruitao Chen, Lei Yin",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26638v1",
-    "summary": "[AI 摘要] We present a genuinely non-radial quantum-mechanical route by which $π$ emerges from equatorial localization on the sphere. For the highest-weight bra...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26625v1",
-    "title": "Tikhonov-regularised projected gradient flow for equality-constrained bilinear quantum control",
-    "authors": "Tanveer Ahmad",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26625v1",
-    "summary": "[AI 摘要] We study a projection-type gradient flow for equality-constrained maximisation of a smooth bilinear control objective on $\\mathcal{H}=L^2(0,T;\\mathbb{...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26615v1",
-    "title": "TDD Governance for Multi-Agent Code Generation via Prompt Engineering",
-    "authors": "Tarlan Hasanli, Shahbaz Siddeeq, Bishwash Khanal et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26615v1",
-    "summary": "[AI 摘要] Large language models (LLMs) accelerate software development but often exhibit instability, non-determinism, and weak adherence to development discipl...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28075v1",
+    "summary": "[AI 摘要] Recent research has shown that filtering massive English web corpora into high-quality subsets significantly improves training efficiency. However, fo...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26609v1",
-    "title": "Probabilistic Condition, Decision and Path Coverage of Circuit-based Quantum Programs",
-    "authors": "Daniel Fortunato, José Campos, Rui Abreu",
+    "id": "arxiv-2604.28059v1",
+    "title": "NeuroRing: Scaling Spiking Neural Networks via Multi-FPGA Bidirectional Ring Topologies and Stream-Dataflow Architectures",
+    "authors": "Muhammad Ihsan Al Hafiz, Artur Podobas",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26609v1",
-    "summary": "[AI 摘要] Coverage criteria play a central role in assessing test adequacy in classical software, yet their effectiveness for quantum programs remains poorly un...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28059v1",
+    "summary": "[AI 摘要] Spiking neural networks (SNNs) are a promising paradigm for energy-efficient event-driven computation, but large-scale SNN execution remains challengi...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26607v1",
-    "title": "Human-in-the-Loop Benchmarking of Heterogeneous LLMs for Automated Competency Assessment in Secondary Level Mathematics",
-    "authors": "Jatin Bhusal, Nancy Mahatha, Aayush Acharya et al.",
+    "id": "arxiv-2604.28056v1",
+    "title": "RHyVE: Competence-Aware Verification and Phase-Aware Deployment for LLM-Generated Reward Hypotheses",
+    "authors": "Feiyu Wu, Xu Zheng, Zhuocheng Wang et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26607v1",
-    "summary": "[AI 摘要] As Competency-Based Education (CBE) is gaining traction around the world, the shift from marks-based assessment to qualitative competency mapping is a...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28056v1",
+    "summary": "[AI 摘要] Large language models (LLMs) make reward design in reinforcement learning substantially more scalable, but generated rewards are not automatically rel...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26605v1",
-    "title": "All pure entangled states can lead to fully nonlocal correlations",
-    "authors": "Martin J. Renner, Edwin Peter Lobo, Arturo Konderak et al.",
+    "id": "arxiv-2604.28050v1",
+    "title": "A No-Cloning Trade-off Between Black Hole No-Hair and Horizon Smoothness",
+    "authors": "Sudhanva Joshi, Sunil Kumar Mishra",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26605v1",
-    "summary": "[AI 摘要] It is a well-established fact that some quantum correlations can be nonlocal, meaning that they cannot be described by a local hidden variable model. ...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28050v1",
+    "summary": "[AI 摘要] The black hole no-hair theorem is traditionally derived from the uniqueness theorems of general relativity. We show that a quantitative form follows f...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26597v1",
-    "title": "Translating Under Pressure: Domain-Aware LLMs for Crisis Communication",
-    "authors": "Antonio Castaldo, Maria Carmen Staiano, Johanna Monti et al.",
+    "id": "arxiv-2604.28043v1",
+    "title": "Collaborative Agent Reasoning Engineering (CARE): A Three-Party Design Methodology for Systematically Engineering AI Agents with Subject Matter Experts, Developers, and Helper Agents",
+    "authors": "Rahul Ramachandran, Nidhi Jha, Muthukumaran Ramasubramanian",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26597v1",
-    "summary": "[AI 摘要] Timely and reliable multilingual communication is critical during natural and human-induced disasters, but developing effective solutions for crisis c...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28043v1",
+    "summary": "[AI 摘要] We present Collaborative Agent Reasoning Engineering (CARE), a disciplined methodology for engineering Large Language Model (LLM) agents in scientific...",
     "tags": [
       "AI+Security"
     ]
   },
   {
-    "id": "arxiv-2604.26591v1",
-    "title": "MappingEvolve: LLM-Driven Code Evolution for Technology Mapping",
-    "authors": "Rongliang Fu, Yi Liu, Qiang Xu et al.",
+    "id": "arxiv-2604.28042v1",
+    "title": "Deep Strong light-matter Coupling in 3D Kane Fermions",
+    "authors": "Dmitriy Yavorskiy, David Hagenmuller, Noureddine Charrouj et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26591v1",
-    "summary": "[AI 摘要] Technology mapping is a critical yet challenging stage in logic synthesis. While Large Language Models (LLMs) have been applied to generate optimizati...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26590v1",
-    "title": "Recommendations for Efficient and Responsible LLM Adoption within Industrial Software Development",
-    "authors": "Krishna Ronanki, Beatriz Cabrero-Daniel, Tomas Herda et al.",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26590v1",
-    "summary": "[AI 摘要] Context: Large language models (LLMs) are observed to have a significant positive impact on various software engineering (SE) activities. With improve...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2604.26587v1",
-    "title": "Sparse-on-Dense: Area and Energy-Efficient Computing of Sparse Neural Networks on Dense Matrix Multiplication Accelerators",
-    "authors": "Hyunsung Yoon, Sungju Ryu, Jae-Joon Kim",
-    "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26587v1",
-    "summary": "[AI 摘要] As the size of Deep Neural Networks (DNNs) increases dramatically to achieve high accuracy, the DNNs require a large amount of computations and memory...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28042v1",
+    "summary": "[AI 摘要] Deep strong light-matter coupling represents an extreme non-perturbative regime of quantum electrodynamics, in which the interaction strength exceeds ...",
     "tags": [
       "Arch/Hardware"
     ]
   },
   {
-    "id": "arxiv-2604.26577v1",
-    "title": "Benchmarking the Safety of Large Language Models for Robotic Health Attendant Control",
-    "authors": "Mahiro Nakao, Kazuhiro Takemoto",
+    "id": "arxiv-2604.28039v1",
+    "title": "SpecVQA: A Benchmark for Spectral Understanding and Visual Question Answering in Scientific Images",
+    "authors": "Jialu Shen, Han Lyu, Suyang Zhong et al.",
     "source": "arXiv",
-    "date": "2026-04-29",
-    "link": "http://arxiv.org/abs/2604.26577v1",
-    "summary": "[AI 摘要] Large language models (LLMs) are increasingly considered for deployment as the control component of robotic health attendants, yet their safety in thi...",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28039v1",
+    "summary": "[AI 摘要] Spectra are a prevalent yet highly information-dense form of scientific imagery, presenting substantial challenges to multimodal large language models...",
     "tags": [
       "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.28037v1",
+    "title": "Branch-Resolved Characterization of Feed-Forward Error in Dynamic Teleportation via Classical Choi Shadows",
+    "authors": "Mason Edwards, Prabhat Mishra",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28037v1",
+    "summary": "[AI 摘要] Mid-circuit measurement and classical feed-forward are essential primitives for dynamic-circuit teleportation on superconducting quantum processors. H...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.28028v1",
+    "title": "Reliable Answers for Recurring Questions: Boosting Text-to-SQL Accuracy with Template Constrained Decoding",
+    "authors": "Smit Jivani, Sarvam Maheshwari, Sunita Sarawagi",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28028v1",
+    "summary": "[AI 摘要] Large language models (LLMs) have revolutionized Text-to-SQL generation, allowing users to query structured data using natural language with growing e...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.28018v1",
+    "title": "Design Structure Matrix Modularization with Large Language Models",
+    "authors": "Shuo Jiang, Jianxi Luo",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28018v1",
+    "summary": "[AI 摘要] Design Structure Matrix (DSM) modularization, the task of partitioning system elements into cohesive modules, is a fundamental combinatorial challenge...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.28009v1",
+    "title": "Learning quantum disentanglement scheduling from reduced states via modular hybrid policies",
+    "authors": "Y. -X. Xiao, J. -Z. Han, Z. Zheng et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.28009v1",
+    "summary": "[AI 摘要] Quantum control with restricted state access is central to near-term quantum devices, where full wave-function information is unavailable. We study th...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27996v1",
+    "title": "Exploring Interaction Paradigms for LLM Agents in Scientific Visualization",
+    "authors": "Jackson Vonderhorst, Kuangshi Ai, Haichao Miao et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27996v1",
+    "summary": "[AI 摘要] This paper examines how different types of large language model (LLM) agents perform on scientific visualization (SciVis) tasks, where users generate ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27972v1",
+    "title": "From LLM-Driven Trading Card Generation to Procedural Relatedness: A Pokémon Case Study",
+    "authors": "Johannes Pfau, Panagiotis Vrettis",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27972v1",
+    "summary": "[AI 摘要] Since the dawn of Trading Card Games, the genre has grown into a multi-billion-dollar industry engaging millions of analog and digital players worldwi...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27969v1",
+    "title": "From Mirage to Grounding: Towards Reliable Multimodal Circuit-to-Verilog Code Generation",
+    "authors": "Guang Yang, Xing Hu, Xiang Chen et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27969v1",
+    "summary": "[AI 摘要] Multimodal large language models (MLLMs) are increasingly used to translate visual artifacts into code, from UI mockups into HTML to scientific plots ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27960v1",
+    "title": "LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning",
+    "authors": "Adam Ishay, Joohyung Lee",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27960v1",
+    "summary": "[AI 摘要] Recent large language models (LLMs) have achieved impressive reasoning milestones but continue to struggle with high computational costs, logical inco...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27943v1",
+    "title": "Adaptable Continuous Variable Quantum Network with Finite Size Security",
+    "authors": "Runjia Zhang, Akash nag Oruganti, Huy Q Nguyen et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27943v1",
+    "summary": "[AI 摘要] In recent years, continuous-variable quantum key distribution (CV-QKD) has become a promising paradigm for enabling secure communication among multipl...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27924v1",
+    "title": "Can AI Be a Good Peer Reviewer? A Survey of Peer Review Process, Evaluation, and the Future",
+    "authors": "Sihong Wu, Owen Jiang, Yilun Zhao et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27924v1",
+    "summary": "[AI 摘要] Peer review is a multi-stage process involving reviews, rebuttals, meta-reviews, final decisions, and subsequent manuscript revisions. Recent advances...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27920v1",
+    "title": "Beyond Semantics: Measuring Fine-Grained Emotion Preservation in Small Language Model-Based Machine Translation",
+    "authors": "Dawid Wisniewski, Igor Czudy",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27920v1",
+    "summary": "[AI 摘要] Preserving affective nuance remains a challenge in Machine Translation (MT), where semantic equivalence often takes precedence over emotional fidelity...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27891v1",
+    "title": "In-Context Prompting Obsoletes Agent Orchestration for Procedural Tasks",
+    "authors": "Simon Dennis, Michael Diamond, Rivaan Patil et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27891v1",
+    "summary": "[AI 摘要] Agent orchestration frameworks -- LangGraph, CrewAI, Google ADK, OpenAI Agents SDK, and others -- place an external orchestrator above the LLM, tracki...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27886v1",
+    "title": "Unentangled stoquastic Merlin-Arthur proof systems: the power of unentanglement without destructive interference",
+    "authors": "Yupan Liu, Pei Wu",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27886v1",
+    "summary": "[AI 摘要] Stoquasticity, originating in sign-problem-free physical systems, gives rise to $\\sf StoqMA$, introduced by Bravyi, Bessen, and Terhal (2006), a quant...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27872v1",
+    "title": "Modeling Clinical Concern Trajectories in Language Model Agents",
+    "authors": "Sukesh Subaharan, Venkatesan VS, Murugadasan P et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27872v1",
+    "summary": "[AI 摘要] Large language model (LLM) agents deployed in clinical settings often exhibit abrupt, threshold-driven behavior, offering little visibility into accum...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27861v1",
+    "title": "TwinGate: Stateful Defense against Decompositional Jailbreaks in Untraceable Traffic via Asymmetric Contrastive Learning",
+    "authors": "Bowen Sun, Chaozhuo Li, Yaodong Yang et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27861v1",
+    "summary": "[AI 摘要] Decompositional jailbreaks pose a critical threat to large language models (LLMs) by allowing adversaries to fragment a malicious objective into a seq...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27859v1",
+    "title": "Rethinking Agentic Reinforcement Learning In Large Language Models",
+    "authors": "Fangming Cui, Ruixiao Zhu, Cheng Fang et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27859v1",
+    "summary": "[AI 摘要] Reinforcement Learning (RL) has traditionally focused on training specialized agents to optimize predefined reward functions within narrowly defined e...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27858v1",
+    "title": "Geometric complexity in thermodynamics",
+    "authors": "Tan Van Vu, Keiji Saito",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27858v1",
+    "summary": "[AI 摘要] The third law of thermodynamics forbids cooling a physical system to absolute zero in a finite number of operational steps. Although this unattainabil...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27851v1",
+    "title": "Wavelet-based multiresolution analysis of quantum fractals in confined dynamics",
+    "authors": "David Navia, Ángel S. Sanz",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27851v1",
+    "summary": "[AI 摘要] Fractal structures naturally emerge in quantum systems whose initial states exhibit spatial discontinuities, a phenomenon first identified by Berry in...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27840v1",
+    "title": "CastFlow: Learning Role-Specialized Agentic Workflows for Time Series Forecasting",
+    "authors": "Bokai Pan, Mingyue Cheng, Zhiding Liu et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27840v1",
+    "summary": "[AI 摘要] Recently, large language models (LLMs) have shown great promise in time series forecasting. However, most existing LLM-based forecasting methods still...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27838v1",
+    "title": "Heisenberg-limited Hamiltonian learning without short-time control",
+    "authors": "Myeongjin Shin, Junseo Lee, Changhun Oh",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27838v1",
+    "summary": "[AI 摘要] Characterizing quantum systems by learning their underlying Hamiltonians is a central task in quantum information science. While recent algorithmic ad...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27836v1",
+    "title": "Towards High Performance Quantum Computing (HPQ): Parallelisation of the Hamiltonian Auto Decomposition Optimisation Framework (HADOF)",
+    "authors": "Namasi G Sankar, Georgios Miliotis, Simon Caton",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27836v1",
+    "summary": "[AI 摘要] Practical applicability of quantum optimisation on near term devices is constrained by limited qubit counts and hardware noise, which restricts the sc...",
+    "tags": [
+      "Arch/Hardware"
     ]
   }
 ]
