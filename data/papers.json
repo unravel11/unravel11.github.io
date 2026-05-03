@@ -1,5 +1,102 @@
 [
   {
+    "id": "arxiv-2604.27834v1",
+    "title": "Hypergeometric Functions of Nilpotent Operators: Functional Collapse and Structural Depth at Exceptional Points",
+    "authors": "Ramon Moya",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27834v1",
+    "summary": "[AI 摘要] We study hypergeometric functions of nilpotent operators in finite-dimensional settings, motivated by the algebraic structure of exceptional points in...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27829v1",
+    "title": "Entanglement of multi-qubit quantum graph states and studies structural properties of tripartite graphs with quantum programming",
+    "authors": "Kh. P. Gnatenko",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27829v1",
+    "summary": "[AI 摘要] We propose a method for constructing multi-qubit entangled quantum states representing weighted tripartite graphs. An expression for the entanglement ...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27824v1",
+    "title": "Compressed Sensing for Efficient Fidelity Estimation of GHZ States",
+    "authors": "Farrokh Labib, David Nicholaeff, Vincent Russo et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27824v1",
+    "summary": "[AI 摘要] Accurately characterizing multipartite entangled states is a critical challenge in quantum information processing. In this work, we focus on applying ...",
+    "tags": [
+      "AI+Security",
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27820v1",
+    "title": "ObjectGraph: From Document Injection to Knowledge Traversal -- A Native File Format for the Agentic Era",
+    "authors": "Mohit Dubey, Open Gigantic",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27820v1",
+    "summary": "[AI 摘要] Every document format in existence was designed for a human reader moving linearly through text. Autonomous LLM agents do not read - they retrieve. Th...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27819v1",
+    "title": "MCPHunt: An Evaluation Framework for Cross-Boundary Data Propagation in Multi-Server MCP Agents",
+    "authors": "Haonan Li, Tianjun Sun, Yongqing Wang et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27819v1",
+    "summary": "[AI 摘要] Multi-server MCP agents create an information-flow control problem: faithful tool composition can turn individually benign read/write permissions into...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27818v1",
+    "title": "MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks",
+    "authors": "Jona te Lintelo, Lichao Wu, Marina Krček et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27818v1",
+    "summary": "[AI 摘要] Mixture-of-Experts (MoE) architectures in Large Language Models (LLMs) have significantly reduced inference costs through sparse activation. However, ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27817v1",
+    "title": "High-Girth Regular Quantum LDPC Codes from Square-Base Hypergraph Products via CPM Lifts",
+    "authors": "Koki Okada, Kenta Kasai",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27817v1",
+    "summary": "[AI 摘要] We study square-base Calderbank--Shor--Steane (CSS) hypergraph-product codes as a finite-length class for regular high-girth quantum low-density parit...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2604.27808v1",
+    "title": "AME-PIM: Can Memory be Your Next Tensor Accelerator?",
+    "authors": "Emanuele Venieri, Simone Manoni, Alberto Florian et al.",
+    "source": "arXiv",
+    "date": "2026-04-30",
+    "link": "http://arxiv.org/abs/2604.27808v1",
+    "summary": "[AI 摘要] High Bandwidth Memory with Processing-in-Memory (HBM-PIM) offers an opportunity to reduce data movement by executing computation directly inside memor...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
     "id": "arxiv-2604.28191v1",
     "title": "Observation of Vinen turbulence during far-from-equilibrium Bose-Einstein condensation",
     "authors": "Sebastian J. Morris, Martin Gazo, Simon M. Fischer et al.",
@@ -501,102 +598,6 @@
     "date": "2026-04-30",
     "link": "http://arxiv.org/abs/2604.27886v1",
     "summary": "[AI 摘要] Stoquasticity, originating in sign-problem-free physical systems, gives rise to $\\sf StoqMA$, introduced by Bravyi, Bessen, and Terhal (2006), a quant...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.27872v1",
-    "title": "Modeling Clinical Concern Trajectories in Language Model Agents",
-    "authors": "Sukesh Subaharan, Venkatesan VS, Murugadasan P et al.",
-    "source": "arXiv",
-    "date": "2026-04-30",
-    "link": "http://arxiv.org/abs/2604.27872v1",
-    "summary": "[AI 摘要] Large language model (LLM) agents deployed in clinical settings often exhibit abrupt, threshold-driven behavior, offering little visibility into accum...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2604.27861v1",
-    "title": "TwinGate: Stateful Defense against Decompositional Jailbreaks in Untraceable Traffic via Asymmetric Contrastive Learning",
-    "authors": "Bowen Sun, Chaozhuo Li, Yaodong Yang et al.",
-    "source": "arXiv",
-    "date": "2026-04-30",
-    "link": "http://arxiv.org/abs/2604.27861v1",
-    "summary": "[AI 摘要] Decompositional jailbreaks pose a critical threat to large language models (LLMs) by allowing adversaries to fragment a malicious objective into a seq...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2604.27859v1",
-    "title": "Rethinking Agentic Reinforcement Learning In Large Language Models",
-    "authors": "Fangming Cui, Ruixiao Zhu, Cheng Fang et al.",
-    "source": "arXiv",
-    "date": "2026-04-30",
-    "link": "http://arxiv.org/abs/2604.27859v1",
-    "summary": "[AI 摘要] Reinforcement Learning (RL) has traditionally focused on training specialized agents to optimize predefined reward functions within narrowly defined e...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2604.27858v1",
-    "title": "Geometric complexity in thermodynamics",
-    "authors": "Tan Van Vu, Keiji Saito",
-    "source": "arXiv",
-    "date": "2026-04-30",
-    "link": "http://arxiv.org/abs/2604.27858v1",
-    "summary": "[AI 摘要] The third law of thermodynamics forbids cooling a physical system to absolute zero in a finite number of operational steps. Although this unattainabil...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.27851v1",
-    "title": "Wavelet-based multiresolution analysis of quantum fractals in confined dynamics",
-    "authors": "David Navia, Ángel S. Sanz",
-    "source": "arXiv",
-    "date": "2026-04-30",
-    "link": "http://arxiv.org/abs/2604.27851v1",
-    "summary": "[AI 摘要] Fractal structures naturally emerge in quantum systems whose initial states exhibit spatial discontinuities, a phenomenon first identified by Berry in...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.27840v1",
-    "title": "CastFlow: Learning Role-Specialized Agentic Workflows for Time Series Forecasting",
-    "authors": "Bokai Pan, Mingyue Cheng, Zhiding Liu et al.",
-    "source": "arXiv",
-    "date": "2026-04-30",
-    "link": "http://arxiv.org/abs/2604.27840v1",
-    "summary": "[AI 摘要] Recently, large language models (LLMs) have shown great promise in time series forecasting. However, most existing LLM-based forecasting methods still...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2604.27838v1",
-    "title": "Heisenberg-limited Hamiltonian learning without short-time control",
-    "authors": "Myeongjin Shin, Junseo Lee, Changhun Oh",
-    "source": "arXiv",
-    "date": "2026-04-30",
-    "link": "http://arxiv.org/abs/2604.27838v1",
-    "summary": "[AI 摘要] Characterizing quantum systems by learning their underlying Hamiltonians is a central task in quantum information science. While recent algorithmic ad...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2604.27836v1",
-    "title": "Towards High Performance Quantum Computing (HPQ): Parallelisation of the Hamiltonian Auto Decomposition Optimisation Framework (HADOF)",
-    "authors": "Namasi G Sankar, Georgios Miliotis, Simon Caton",
-    "source": "arXiv",
-    "date": "2026-04-30",
-    "link": "http://arxiv.org/abs/2604.27836v1",
-    "summary": "[AI 摘要] Practical applicability of quantum optimisation on near term devices is constrained by limited qubit counts and hardware noise, which restricts the sc...",
     "tags": [
       "Arch/Hardware"
     ]
