@@ -1,5 +1,77 @@
 [
   {
+    "id": "arxiv-2605.14881v1",
+    "title": "QSeqSim: A Symbolic Simulator for Qiskit While Loops Using Sequential Quantum Circuits",
+    "authors": "Zihao Li, Ji Guan, Mingsheng Ying",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14881v1",
+    "summary": "[AI 摘要] We present a tool QSeqSim, a Qiskit-integrated symbolic backend that fills the current gap of having no Qiskit-native support for simulating while-loo...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14866v1",
+    "title": "Towards In-Depth Root Cause Localization for Microservices with Multi-Agent Recursion-of-Thought",
+    "authors": "Lingzhe Zhang, Tong Jia, Kangjin Wang et al.",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14866v1",
+    "summary": "[AI 摘要] As modern microservice systems grow increasingly complex due to dynamic interactions and evolving runtime environments, they experience failures with ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14858v1",
+    "title": "Efficient ultrafast homodyne detection of quantum light",
+    "authors": "Young-Do Yoon, Chan Roh, Geunhee Gwak et al.",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14858v1",
+    "summary": "[AI 摘要] Ultrafast continuous-variable quantum states offer new opportunities for advanced quantum technologies, but efficient homodyne detection of these stat...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14857v1",
+    "title": "A Deterministic Agentic Workflow for HS Tariff Classification: Multi-Dimensional Rule Reasoning with Interpretable Decisions",
+    "authors": "Yu Zhang, Dongjiang Zhuang, Qu Zhou et al.",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14857v1",
+    "summary": "[AI 摘要] Harmonized System (HS) tariff classification is a high-stakes, expert-level task in which a free-form product description must be mapped to a specific...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14851v1",
+    "title": "IFPV: An Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification",
+    "authors": "Zhigao Huang, Zhengqing Hu, Dong Chen et al.",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14851v1",
+    "summary": "[AI 摘要] Operational plan generation and verification are critical for modern complex and rapidly changing battlefield environments, yet traditional generation...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14844v1",
+    "title": "XFP: Quality-Targeted Adaptive Codebook Quantization with Sparse Outlier Separation for LLM Inference",
+    "authors": "Thomas Witt",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14844v1",
+    "summary": "[AI 摘要] We introduce XFP, a dynamic weight quantizer for LLM inference that inverts the conventional workflow: the operator specifies reconstruction quality f...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
     "id": "arxiv-2605.15194v1",
     "title": "Non-Invertible Symmetries on Tensor-Product Hilbert Spaces and Quantum Cellular Automata",
     "authors": "Rui Wen, Kansei Inamura, Sakura Schafer-Nameki",
@@ -526,78 +598,6 @@
     "summary": "[AI 摘要] Physical Unclonable Functions (PUFs) are hardware security primitives whose inherent physical complexity can be exploited for secure authentication an...",
     "tags": [
       "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14940v1",
-    "title": "Not All Symbols Are Equal: Importance-Aware Constellation Design for Semantic Communication",
-    "authors": "Albert Shaju, Christo Kurisummoottil Thomas, Mayukh Roy Chowdhury",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14940v1",
-    "summary": "[AI 摘要] Semantic communication systems for goal-oriented transmission must protect task-relevant information not only through source compression but also via ...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14932v1",
-    "title": "Toward Securing AI Agents Like Operating Systems",
-    "authors": "Lukas Pirch, Micha Horlboge, Patrick Großmann et al.",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14932v1",
-    "summary": "[AI 摘要] Autonomous agents based on large language models (LLMs) are rapidly emerging as a general-purpose technology, with recent systems such as OpenClaw ext...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14929v1",
-    "title": "A Hardware-Aware, Per-Layer Methodology for Post-Training Quantization of Large Language Models",
-    "authors": "Earl Killian",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14929v1",
-    "summary": "[AI 摘要] Scaled Outer Product (SOP) is a post-training quantization methodology for large language model weights, designed to deliver near-lossless fidelity at...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14924v1",
-    "title": "Nonlocal Topological Maxwell Demon Teleporting Ergotropy via Surface-Code Quantum Error Correction",
-    "authors": "M. Y. Abd-Rabbou, Cong-Feng Qiao",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14924v1",
-    "summary": "[AI 摘要] We introduce a nonlocal Maxwell demon teleporting ergotropy at finite temperature via classical communication and a shared surface code. The teleporte...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14892v1",
-    "title": "Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems",
-    "authors": "Shihao Qi, Jie Ma, Rui Xing et al.",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14892v1",
-    "summary": "[AI 摘要] LLM-based autonomous agents have demonstrated strong capabilities in reasoning, planning, and tool use, yet remain limited when tasks require sustaine...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14886v1",
-    "title": "BiFedKD: Bidirectional Federated Knowledge Distillation Framework for Non-IID and Long-Tailed ECG Monitoring",
-    "authors": "Zixuan Shu, Tiancheng Cao, Hen-Wei Huang",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14886v1",
-    "summary": "[AI 摘要] Electrocardiogram (ECG) monitoring in Internet of Medical Things (IoMT) networks is constrained by strict data-sharing regulations and privacy concern...",
-    "tags": [
-      "AI+Security"
     ]
   }
 ]
