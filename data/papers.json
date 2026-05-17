@@ -1,5 +1,77 @@
 [
   {
+    "id": "arxiv-2605.14940v1",
+    "title": "Not All Symbols Are Equal: Importance-Aware Constellation Design for Semantic Communication",
+    "authors": "Albert Shaju, Christo Kurisummoottil Thomas, Mayukh Roy Chowdhury",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14940v1",
+    "summary": "[AI 摘要] Semantic communication systems for goal-oriented transmission must protect task-relevant information not only through source compression but also via ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14932v1",
+    "title": "Toward Securing AI Agents Like Operating Systems",
+    "authors": "Lukas Pirch, Micha Horlboge, Patrick Großmann et al.",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14932v1",
+    "summary": "[AI 摘要] Autonomous agents based on large language models (LLMs) are rapidly emerging as a general-purpose technology, with recent systems such as OpenClaw ext...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14929v1",
+    "title": "A Hardware-Aware, Per-Layer Methodology for Post-Training Quantization of Large Language Models",
+    "authors": "Earl Killian",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14929v1",
+    "summary": "[AI 摘要] Scaled Outer Product (SOP) is a post-training quantization methodology for large language model weights, designed to deliver near-lossless fidelity at...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14924v1",
+    "title": "Nonlocal Topological Maxwell Demon Teleporting Ergotropy via Surface-Code Quantum Error Correction",
+    "authors": "M. Y. Abd-Rabbou, Cong-Feng Qiao",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14924v1",
+    "summary": "[AI 摘要] We introduce a nonlocal Maxwell demon teleporting ergotropy at finite temperature via classical communication and a shared surface code. The teleporte...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14892v1",
+    "title": "Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems",
+    "authors": "Shihao Qi, Jie Ma, Rui Xing et al.",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14892v1",
+    "summary": "[AI 摘要] LLM-based autonomous agents have demonstrated strong capabilities in reasoning, planning, and tool use, yet remain limited when tasks require sustaine...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2605.14886v1",
+    "title": "BiFedKD: Bidirectional Federated Knowledge Distillation Framework for Non-IID and Long-Tailed ECG Monitoring",
+    "authors": "Zixuan Shu, Tiancheng Cao, Hen-Wei Huang",
+    "source": "arXiv",
+    "date": "2026-05-14",
+    "link": "http://arxiv.org/abs/2605.14886v1",
+    "summary": "[AI 摘要] Electrocardiogram (ECG) monitoring in Internet of Medical Things (IoMT) networks is constrained by strict data-sharing regulations and privacy concern...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
     "id": "arxiv-2605.14881v1",
     "title": "QSeqSim: A Symbolic Simulator for Qiskit While Loops Using Sequential Quantum Circuits",
     "authors": "Zihao Li, Ji Guan, Mingsheng Ying",
@@ -526,78 +598,6 @@
     "summary": "[AI 摘要] Premature closure, or committing to a conclusion before sufficient information is available, is a recognized contributor to diagnostic error but remai...",
     "tags": [
       "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14998v1",
-    "title": "Learning Developmental Scaffoldings to Guide Self-Organisation",
-    "authors": "Milton L. Montero, Elias Najarro, Jakob Schauser et al.",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14998v1",
-    "summary": "[AI 摘要] From subcellular structures to entire organisms, many natural systems generate complex organisation through self-organisation: local interactions that...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14995v1",
-    "title": "Explainable Detection of Depression Status Shifts from User Digital Traces",
-    "authors": "Loris Belcastro, Francesco Gervino, Fabrizio Marozzo et al.",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14995v1",
-    "summary": "[AI 摘要] Every day, users generate digital traces (e.g., social media posts, chats, and online interactions) that are inherently timestamped and may reflect as...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14994v1",
-    "title": "Sharp Bounds on the Eigenvalues of Kikuchi Graphs and Applications to Quantum Max Cut",
-    "authors": "Ainesh Bakshi, Arpon Basu, Pravesh Kothari et al.",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14994v1",
-    "summary": "[AI 摘要] We prove that the maximum eigenvalue of the (both signed and unsigned) Laplacian of level $k$ Kikuchi graph of any graph $G$ with $m$ edges is at most...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14993v1",
-    "title": "Accurate Modeling of Rydberg Atoms and Their Interactions: Theory and Implementation in PairInteraction",
-    "authors": "Johannes Mögerle, Frederic Hummel, Alicia Keil et al.",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14993v1",
-    "summary": "[AI 摘要] Rydberg atoms provide a powerful platform for exploring strongly interacting quantum systems, both in free space and in structured electromagnetic env...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14972v1",
-    "title": "Viverra: Text-to-Code with Guarantees",
-    "authors": "Haoze Wu, Rocky Klopfenstein, Keith Farkas et al.",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14972v1",
-    "summary": "[AI 摘要] A fundamental limitation of Text-to-Code is that no guarantee can be obtained about the correctness of the generated code. Therefore, to ensure its co...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2605.14959v1",
-    "title": "Quantum-Secure Physical Unclonable Function enabled by Silicon Photonics Integrated Circuits",
-    "authors": "G. Sarantoglou, N. Tzekas, G. Moustakas et al.",
-    "source": "arXiv",
-    "date": "2026-05-14",
-    "link": "http://arxiv.org/abs/2605.14959v1",
-    "summary": "[AI 摘要] Physical Unclonable Functions (PUFs) are hardware security primitives whose inherent physical complexity can be exploited for secure authentication an...",
-    "tags": [
-      "Arch/Hardware"
     ]
   }
 ]
