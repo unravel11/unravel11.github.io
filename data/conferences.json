@@ -206,10 +206,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-10-15",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2026-03-01",
-    "location": "TBD",
+    "next_deadline": "2026-09-25",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "March 9-12, 2027",
+    "location": "Richmond, Virginia, United States",
     "topics": [
       "Software Evolution",
       "Reverse Engineering",
@@ -345,7 +345,7 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-06-05",
+    "next_deadline": "2027-06-05",
     "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2026-05-18",
     "location": "San Francisco, USA",
@@ -383,7 +383,7 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-06-05",
+    "next_deadline": "2027-06-05",
     "deadline_note": "Expected (Auto-predicted)",
     "conference_date": "2025-08-13",
     "location": "Seattle, USA",
