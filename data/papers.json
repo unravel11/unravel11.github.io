@@ -1,5 +1,125 @@
 [
   {
+    "id": "arxiv-2606.06240v1",
+    "title": "TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory",
+    "authors": "Ziming Wang",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06240v1",
+    "summary": "[AI 摘要] Persistent memory for an LLM agent is a write-heavy substrate: every belief update is a versioned write, and a new claim may contradict a stored one. ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06235v1",
+    "title": "Design a Reliable LLM-Integrated Interface for Mortality Forecasting",
+    "authors": "Thi Kim Ngan Nguyen",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06235v1",
+    "summary": "[AI 摘要] Mortality forecasting plays an important role in actuarial and policy decision-making, but its implementation remains technically complex and inaccess...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06223v1",
+    "title": "From Reward-Hack Activations to Agentic Risk States: Context-Calibrated Mechanistic Monitoring in LLM Agents",
+    "authors": "Patrick Wilhelm, Odej Kao",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06223v1",
+    "summary": "[AI 摘要] Language-model agents act through repeated cycles of observation, reasoning, and action selection, making safety monitoring depend on both internal mo...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06217v1",
+    "title": "DisasterBench: A Multimodal Benchmark for UAV-Based Disaster Response in Complex Environments",
+    "authors": "Tan Zhang, Quanyou Li, Lu Zhang et al.",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06217v1",
+    "summary": "[AI 摘要] When a disaster unfolds, responders must answer not only what is happening, but also why it is happening, what will happen next, and what to do now, o...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06214v1",
+    "title": "Towards the Readability of LLM-Generated Codes through Multitask Representation Engineering",
+    "authors": "Huifan Gao, Liuhua He, Yinghui Pan et al.",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06214v1",
+    "summary": "[AI 摘要] Correctness and readability are key measures of code quality, respectively ensuring functional fidelity and ease of comprehension. While most existing...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06212v1",
+    "title": "Evaluating Agentic Configuration Repair for Computer Networks",
+    "authors": "Rufat Asadli, Benjamin Hoffman, Ioannis Protogeros et al.",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06212v1",
+    "summary": "[AI 摘要] Misconfigurations in computer networks remain a major source of critical Internet outages. Research is turning to Large Language Models (LLMs) to auto...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06204v1",
+    "title": "Semidefinite-programming hierarchies for classically simulable state families",
+    "authors": "Mengyan Li, Yanning Jia, Fenzhuo Guo et al.",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06204v1",
+    "summary": "[AI 摘要] Identifying whether a state family admits an irreducible quantum advantage is a fundamental task in quantum resource theory and quantum information pr...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06203v1",
+    "title": "Dense Contexts Are Hard Contexts: Lexical Density Limits Effective Context in LLMs",
+    "authors": "Giovanni Dettori, Matteo Boffa, Danilo Giordano et al.",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06203v1",
+    "summary": "[AI 摘要] Input length and the position of relevant information are widely cited as the primary causes of degraded LLM long-context performance. Here, we study ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06197v1",
+    "title": "Improving Answer Extraction in Context-based Question Answering Systems Using LLMs",
+    "authors": "Hafez Abdelghaffar, Ahmed Alansary, Ali Hamdi",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06197v1",
+    "summary": "[AI 摘要] Question answering (QA) systems have achieved notable progress with the advent of large language models (LLMs). However, they still face challenges in...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.06178v1",
+    "title": "Learning to Route LLMs from Implicit Cost-Performance Preferences via Meta-Learning",
+    "authors": "Jiahao Zeng, Ming Tang, Ningning Ding",
+    "source": "arXiv",
+    "date": "2026-06-04",
+    "link": "http://arxiv.org/abs/2606.06178v1",
+    "summary": "[AI 摘要] Large language models (LLMs) present a trade-off between performance and cost, where more powerful models incur greater expense. LLM routing aims to m...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
     "id": "arxiv-2606.06490v1",
     "title": "Coherent room-temperature dipole synchronization in nanocavity sheets",
     "authors": "Rakesh Arul, Piper Fowler-Wright, Lille Borresen et al.",
@@ -476,126 +596,6 @@
     "date": "2026-06-04",
     "link": "http://arxiv.org/abs/2606.06286v1",
     "summary": "[AI 摘要] Large language models can reproduce training data, but existing memorization evaluations mostly measure whether models can be forced to do so, rather ...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06285v1",
-    "title": "TRACE: A Temporal Conditional Estimation for Multimodal Time Series Foundation Models",
-    "authors": "Ziwen Kan, Yishuo Chen, Kecheng Li et al.",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06285v1",
-    "summary": "[AI 摘要] Time series foundation models (TS-FMs) aim to learn generalizable temporal representations that can be adapted to a wide range of downstream tasks. In...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06284v1",
-    "title": "ToolChoiceConfusion: Causal Minimal Tool Filtering for Reliable LLM Agents",
-    "authors": "Rahul Suresh Babu, Laxmipriya Ganesh Iyer",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06284v1",
-    "summary": "[AI 摘要] Large language model agents increasingly rely on external tools, but larger tool menus can reduce reliability and efficiency by increasing wrong-tool ...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06265v1",
-    "title": "Robust Ensemble of Selectively Strengthened and Augmented Predictors",
-    "authors": "Parsa Memarzadehsaghezi, Zahra Hashemi, Pooria Madani et al.",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06265v1",
-    "summary": "[AI 摘要] Evasion attacks present a significant challenge to the robustness of machine learning (ML)-based classifiers, particularly in critical applications su...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06261v1",
-    "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
-    "authors": "Francesco Spinelli, Esteban Municio, Pau Baguer et al.",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06261v1",
-    "summary": "[AI 摘要] O-RAN enables a disaggregated baseband stack with programmable functions that communicate over standardized open interfaces. The same openness that en...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06260v1",
-    "title": "OneReason Technical Report",
-    "authors": " OneRec Team, Biao Yang, Boyang Ding et al.",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06260v1",
-    "summary": "[AI 摘要] Generative recommendation models in the OneRec family have been widely deployed in many real-world services, such as short-video, live-streaming, adve...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06259v1",
-    "title": "Non-equilibrium thermodynamics of collapse models in the strongly non-Gaussian regime",
-    "authors": "Pedro B. Melo, Pedro V. Paraguassú, Simone Artini et al.",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06259v1",
-    "summary": "[AI 摘要] Standard objective collapse models offer a unified approach to the quantum measurement problem but predict an unphysical, indefinite increase in the e...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06256v1",
-    "title": "RedKnot: Efficient Long-Context LLM Serving with Head-Aware KV Reuse and SegPagedAttention",
-    "authors": "Yang Liu, ZhaoKai Luo, HuaYi Jin et al.",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06256v1",
-    "summary": "[AI 摘要] As the input length of large language model (LLM) serving continues to grow, the KV cache has become a dominant bottleneck in AI infrastructure. It li...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06254v1",
-    "title": "SecRL-Prune: Structured Reinforcement Learning-Based Pruning of CodeLLMs for Preserving Adversarial Code Mutation",
-    "authors": "Parsa Memarzadehsaghezi, Pooria Madani, Khalil El-Khatib",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06254v1",
-    "summary": "[AI 摘要] Large code language models (CodeLLMs) can generate and rewrite programs, enabling functionality-preserving code mutation that may be used to create di...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06246v1",
-    "title": "Multiple Quantum Hypothesis Testing: One-Shot Pairwise Bounds and Sharp Asymptotics",
-    "authors": "Hao-Chung Cheng, Po-Chieh Liu",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06246v1",
-    "summary": "[AI 摘要] We consider Bayesian discrimination among multiple quantum states and establish a dimension-free one-shot upper bound on the minimum probability of er...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.06244v1",
-    "title": "Steering LLM Viewpoints through Fabricated Evidence Injection",
-    "authors": "Xi Yang, Chang Liu, Zhenglin Huang et al.",
-    "source": "arXiv",
-    "date": "2026-06-04",
-    "link": "http://arxiv.org/abs/2606.06244v1",
-    "summary": "[AI 摘要] As chatbots increasingly influence daily decision-making, their potential to produce misleading responses poses substantial risks to users. This paper...",
     "tags": [
       "AI+Security"
     ]
