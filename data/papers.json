@@ -1,5 +1,113 @@
 [
   {
+    "id": "arxiv-2606.13341v1",
+    "title": "Dual-Domain Equivariant Generative Adversarial Network for Multimodal CT-PET Synthesis",
+    "authors": "Gabriel Steele, Alzahra Altalib, Alessandro Perelli",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13341v1",
+    "summary": "[AI 摘要] We present a Dual-Domain Equivariant Generative Adversarial Network (DDE-GAN) for multimodal CT-PET image synthesis. Traditional GAN-based approaches ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.13328v1",
+    "title": "Non-Parametric Dual-Manifold Mapping via 8-Bit Bounded Transformation Matrices: Challenging FP-centric Hardware Paradigms in Low-Energy AI",
+    "authors": "Lars Kopp",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13328v1",
+    "summary": "[AI 摘要] Modern deep learning hardware paradigms rely heavily on computationally expensive floating-point arithmetic (FP32, FP16, and FP8), requiring massive t...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2606.13316v1",
+    "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
+    "authors": "Xucong Wang, Ziyu Ma, Yong Wang et al.",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13316v1",
+    "summary": "[AI 摘要] Reinforcement Learning with Verifiable Rewards (RLVR) is a central technique for improving long-horizon reasoning in Large Language Models (LLMs). How...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.13298v1",
+    "title": "Mining Architectural Quality Under Agentic AI Adoption: A Causal Study of Java Repositories",
+    "authors": "Oliver Aleksander Larsen, Mahyar T. Moghaddam",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13298v1",
+    "summary": "[AI 摘要] AI coding tools are now used by a majority of developers, and agentic use of these tools has popularized the practice colloquially called \"vibe coding...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.13290v1",
+    "title": "Understanding quantum behaviors of an electron in a uniform magnetic field alternatively",
+    "authors": "Jin-Ming Wang, Yuan-Zao Gao, Dai-Lin Cun et al.",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13290v1",
+    "summary": "[AI 摘要] Quantum mechanically, an electron moving in a uniform magnetic field forms Landau levels. A curious feature is that for states with a negative angular...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2606.13289v1",
+    "title": "HYDRA-X: Native Unified Multimodal Models with Holistic Visual Tokenizers",
+    "authors": "Guozhen Zhang, Xuerui Qiu, Yutao Cui et al.",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13289v1",
+    "summary": "[AI 摘要] Holistic visual tokenizers are fundamental to unified multimodal models (UMMs) as they map diverse visual inputs into a unified representation space. ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.13288v1",
+    "title": "Cross-Modal Masked Compositional Concept Modeling for Enhancing Visio-Linguistic Compositionality",
+    "authors": "Wei Li, Zhen Huang, Xinmei Tian",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13288v1",
+    "summary": "[AI 摘要] Contrastively trained vision-language models like CLIP, have made remarkable progress in learning joint image-text representations, but still face cha...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.13284v1",
+    "title": "Where a Quantum Reservoir Works: A Transferable Operating Band",
+    "authors": "Markus Baumann, Itamar Fink, Johannes Wittmann et al.",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13284v1",
+    "summary": "[AI 摘要] In quantum reservoir computing, a fixed quantum system transforms an input signal, while learning reduces to training a simple linear readout on its m...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2606.13282v1",
+    "title": "ERTS: Adversarial Robustness Testing of Ethical AI via Semantic Perturbation in a Bounded Consequence Space",
+    "authors": "Pratyush Chaudhari",
+    "source": "arXiv",
+    "date": "2026-06-11",
+    "link": "http://arxiv.org/abs/2606.13282v1",
+    "summary": "[AI 摘要] As AI systems are deployed in high-stakes ethical contexts such as healthcare triage, autonomous vehicle control, and employment screening, formal met...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
     "id": "arxiv-2606.13670v1",
     "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
     "authors": "Tobias Holtdirk, Pietro Marcolongo, Anna Steinberg Schulten et al.",
@@ -487,115 +595,6 @@
     "date": "2026-06-11",
     "link": "http://arxiv.org/abs/2606.13392v1",
     "summary": "[AI 摘要] Ultra-long-context capability is becoming indispensable for frontier LLMs: agentic workflows, repository-scale code reasoning, and persistent memory a...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13388v1",
-    "title": "From 2D Yang-Mills to Calogero-Sutherland via a colored particle",
-    "authors": "Marcia Tenser, Amilcar R. Queiroz",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13388v1",
-    "summary": "[AI 摘要] We study Yang-Mills theory coupled to a particle on a cylinder, where gauge invariance and compactness reduce the dynamics to a finite dimensional qua...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13387v1",
-    "title": "Representation-Induced Symmetry Trapping in Adaptive Variational Quantum Simulations of Multi-Reference Topologies",
-    "authors": "Hermawan Kresno Dipojono",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13387v1",
-    "summary": "[AI 摘要] Evaluating the trainability of adaptive quantum chemistry algorithms under multi-reference static correlation requires understanding how representatio...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13385v1",
-    "title": "Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents",
-    "authors": "Zihao Wang, Yiming Li, Yutong Wu et al.",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13385v1",
-    "summary": "[AI 摘要] Web agents driven by large language models (LLMs) are increasingly deployed in real-world environments, where they operate over untrusted web content ...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13383v1",
-    "title": "Beyond the Unruh vacuum: multi-time correlations in black hole collapse and evaporation",
-    "authors": "Konstantinos Xenos, Charis Anastopoulos, Andreas F. Terzis",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13383v1",
-    "summary": "[AI 摘要] The black hole information paradox originates from the thermal character of Hawking radiation, which appears to erase information about the collapsing...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13380v1",
-    "title": "An LLM System for Autonomous Variational Quantum Circuit Design",
-    "authors": "Kenya Sakka, Wataru Mizukami, Kosuke Mitarai",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13380v1",
-    "summary": "[AI 摘要] The design of high performing quantum circuits remains largely dependent on human expertise. We introduce an autonomous agentic framework that employs...",
-    "tags": [
-      "AI+Security",
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13377v1",
-    "title": "Steady-State Noise Signatures of Lindbladian Exceptional Points",
-    "authors": "Shihang Pan, Gianmichele Blasi, Géraldine Haack",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13377v1",
-    "summary": "[AI 摘要] Exceptional points (EPs) are non-Hermitian degeneracies at which two or more eigenvalues and their corresponding eigenvectors coalesce. In open quantu...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13375v1",
-    "title": "Driven-dissipative entanglement of distant giant atoms",
-    "authors": "Aziza Almanakly, Ariadna Soro, Alejandro Vivas-Viaña et al.",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13375v1",
-    "summary": "[AI 摘要] Quantum interconnects distribute entanglement via controlled light-matter interactions for quantum computing and sensing applications. Many entangleme...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13354v1",
-    "title": "SupraSNN: Exploiting Synapse-Level Parallelism in Spiking Neural Network Accelerators through Co-Optimized Mapping and Scheduling",
-    "authors": "Seyed Sadra Ghavami, Mohammad Hossein Nikkhah, Mohammad Rasoul Roshanshah et al.",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13354v1",
-    "summary": "[AI 摘要] Spiking Neural Networks (SNNs) offer a brain-inspired path toward highly efficient computation, but their practical deployment is constrained by the c...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.13348v1",
-    "title": "IVIE: A Neuro-symbolic Approach to Incremental and Validated Generation of Interactive Fiction Worlds",
-    "authors": "Micaela Vaucher, Santiago Silveira, Santiago Góngora et al.",
-    "source": "arXiv",
-    "date": "2026-06-11",
-    "link": "http://arxiv.org/abs/2606.13348v1",
-    "summary": "[AI 摘要] Computational creativity in Interactive Fiction faces a fundamental tension: Large Language Models (LLM) may produce creative narratives but struggle ...",
     "tags": [
       "AI+Security"
     ]
