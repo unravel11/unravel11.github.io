@@ -1,5 +1,125 @@
 [
   {
+    "id": "arxiv-2606.26978v1",
+    "title": "To Run or Not to Run: Analyzing the Cost-Effectiveness of Code Execution in LLM-Based Program Repair",
+    "authors": "Zhihao Lin, Junhua Zhu, Mingyi Zhou et al.",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26978v1",
+    "summary": "[AI 摘要] LLM-based agents for program repair are increasingly built on a \"generate-run-revise\" paradigm, iteratively executing tests to evaluate and refine pat...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26969v1",
+    "title": "Einstein World Models",
+    "authors": "Munachiso Samuel Nwadike, Zangir Iklassov, Ali Mekky et al.",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26969v1",
+    "summary": "[AI 摘要] Does intelligence require the ability to reason about phenomena beyond direct experience? It is natural to suspect that some complex thought cannot be...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26967v1",
+    "title": "Protocol Prying: Systematic Vulnerability Research in the Apple AirDrop and Android Quick Share Proximity Transfer Protocols",
+    "authors": "Arash Ale Ebrahim, Nils Ole Tippenhauer",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26967v1",
+    "summary": "[AI 摘要] Apple AirDrop and Google/Samsung Quick Share are proximity file-transfer protocols used by over five billion devices, yet their application-layer secu...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26947v1",
+    "title": "Scaling Multi-Reference Image Generation with Dynamic Reward Optimization",
+    "authors": "Wenwang Huang, Yusen Fu, Junjie Wang et al.",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26947v1",
+    "summary": "[AI 摘要] While personalized image generation has achieved remarkable progress, multi-reference image generation (MRIG) remains a challenging task. Most existin...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26946v1",
+    "title": "On the simple derivation of the Casimir effect",
+    "authors": "Hai-Chau Nguyen, Matthias Kleinmann",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26946v1",
+    "summary": "[AI 摘要] The Casimir effect in its simplest form describes the attraction of two parallel conducting plates at close distance due to the vacuum fluctuation of ...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26936v1",
+    "title": "Jailbreaking for the Average Jane: Choosing Optimal Jailbreaks via Bandit Algorithms for Automatically Enhanced Queries",
+    "authors": "Prarabdh Shukla,  Ritik, Suhas Rao et al.",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26936v1",
+    "summary": "[AI 摘要] With a profusion of jailbreaks for LLMs now widely known, a growing concern is that non-expert malicious actors (\"the average Jane\") could elicit acti...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26935v1",
+    "title": "Where Do CoT Training Gains Land in LLM based Agents?",
+    "authors": "Jingyu Liu, Zhiwen Wang, Yuxin Jing et al.",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26935v1",
+    "summary": "[AI 摘要] Chain-of-thought (CoT) reasoning is widely used in language-model agents, but prior work has shown that verbalized CoT is not always faithful and may ...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26933v1",
+    "title": "Chai: Agentic Discovery of Cryptographic Misuse Vulnerabilities",
+    "authors": "Corban Villa, Sohee Kim, Austin Chu et al.",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26933v1",
+    "summary": "[AI 摘要] AI-assisted vulnerability discovery has proven effective for bug classes like memory safety, where instrumentation confirms memory violations and effi...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26927v1",
+    "title": "Are LLMs Ready for Anti-Pattern Detection in Microservice Architectures?",
+    "authors": "Marco De Luca, Domenico Amalfitano, Porfirio Tramontana et al.",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26927v1",
+    "summary": "[AI 摘要] Microservice systems are prone to recurrent architectural anti-patterns (APs) that hinder maintainability, evolvability, and operational quality. Most...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2606.26924v1",
+    "title": "A Deterministic Control Plane for LLM Coding Agents",
+    "authors": "Padmaraj Madatha",
+    "source": "arXiv",
+    "date": "2026-06-25",
+    "link": "http://arxiv.org/abs/2606.26924v1",
+    "summary": "[AI 摘要] LLM coding harnesses grant agents broad file and shell access, yet the configuration layer that steers them -- rules files, agent definitions, IDE-spe...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
     "id": "arxiv-2606.27361v1",
     "title": "Autoregressive Boltzmann Generators",
     "authors": "Danyal Rehman, Charlie B. Tan, Yoshua Bengio et al.",
@@ -479,126 +599,6 @@
     "summary": "[AI 摘要] Open quantum systems generally do not perfectly preserve phase coherence: coupling to uncontrolled environments requires a density-matrix description ...",
     "tags": [
       "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.27027v1",
-    "title": "ShareLock: A Stealthy Multi-Tool Threshold Poisoning Attack Against MCP",
-    "authors": "Liwei Liu, Tianzhu Han, Zijian Liu et al.",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.27027v1",
-    "summary": "[AI 摘要] With the rapid evolution of LLM-driven agents, Model Context Protocol (MCP), an open protocol bridging LLMs with external tools, has quickly become fo...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.27017v1",
-    "title": "Lattice patch structure for fixed-frequency transmon quantum computer with high-fidelity CNOT gates",
-    "authors": "Chanpyo Kim, Jeongsoo Kang, Younghun Kwon",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.27017v1",
-    "summary": "[AI 摘要] Superconducting transmon processors represent a leading platform for large-scale quantum computing due to their high gate fidelities and scalability. ...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2606.27009v1",
-    "title": "Semantic Early-Stopping for Iterative LLM Agent Loops",
-    "authors": "Sahil Shrivastava",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.27009v1",
-    "summary": "[AI 摘要] Multi-agent large language model (LLM) loops, for example a Writer that drafts and a Critic that revises, are almost always terminated by a fixed iter...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.27005v1",
-    "title": "Adaptive Utility driven Resource Orchestration for Resilient AI (AURORA-AI)",
-    "authors": "Rahul Umesh Mhapsekar, Ilias Cherkaoui, Lizy Abraham et al.",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.27005v1",
-    "summary": "[AI 摘要] Modern AI systems are increasingly deployed under non-stationary computational, demographic, and operational conditions in which static resource alloc...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.26994v1",
-    "title": "Event-Aware Instructed Assistant for Referring Video Segmentation",
-    "authors": "Jinyu Liu, Henghui Ding, Shuting He et al.",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.26994v1",
-    "summary": "[AI 摘要] Existing referring video segmentation methods often treat a video as a single event consisting of multiple images, overlooking the fact that a video t...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.26987v1",
-    "title": "Where Do Models Find Happiness? Emotion Vectors in Open-Source LLMs",
-    "authors": "Sinie van der Ben, Raphaël Baur, Yannick Metz et al.",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.26987v1",
-    "summary": "[AI 摘要] Recent work identified emotion vectors in Claude Sonnet 4.5, which are internal representations that encode emotion concepts, causally influence behav...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.26986v1",
-    "title": "ReaORE: Reasoning-Guided Progressive Open Relation Extraction Empowered by Large Reasoning Models",
-    "authors": "Xin Lin, Liang Zhang, Guoqi Ma et al.",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.26986v1",
-    "summary": "[AI 摘要] Open Relation Extraction (OpenRE) requires a model to extract unseen relations between head and tail entities from unstructured text for real-world ap...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.26982v1",
-    "title": "Auditing Framing-Sensitive Behavioral Instability in Large Language Models for Mental Health Interactions",
-    "authors": "Abla Bedoui, Ashley L. Greene, Mohammed Cherkaoui",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.26982v1",
-    "summary": "[AI 摘要] Large language models (LLMs) are increasingly being integrated into mental health support tools and other psychologically sensitive conversational app...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.26981v1",
-    "title": "In-Context Model Predictive Generation: Open-Vocabulary Motion Synthesis from Language Models to Physics",
-    "authors": "Xiaomeng Fu, Junfan Lin, Yang Liu et al.",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.26981v1",
-    "summary": "[AI 摘要] Synthesizing human motion from textual descriptions is essential for immersive digital applications, yet existing methods face a persistent trade-off ...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2606.26979v1",
-    "title": "How Much Static Structure Do Code Agents Need? A Study of Deterministic Anchoring",
-    "authors": "Zhihao Lin, Mingyi Zhou, Yizhuo Yang et al.",
-    "source": "arXiv",
-    "date": "2026-06-25",
-    "link": "http://arxiv.org/abs/2606.26979v1",
-    "summary": "[AI 摘要] LLM-based code agents navigate repositories through keyword search but miss the structural relationships, such as call graphs, inheritance hierarchies...",
-    "tags": [
-      "AI+Security"
     ]
   }
 ]
