@@ -514,10 +514,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-12-05",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2026-06-25",
-    "location": "TBD",
+    "next_deadline": "2026-12-02",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "June 22-25, 2027",
+    "location": "Berlin, Germany",
     "topics": [
       "Dependable Systems",
       "Fault Tolerance",
@@ -583,7 +583,7 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-07-27",
+    "next_deadline": "2026-07-28",
     "deadline_note": "Verified (Source: CCF)",
     "conference_date": "February 16-23, 2027",
     "location": "Montréal, Québec, Canada",
