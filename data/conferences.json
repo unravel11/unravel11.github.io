@@ -140,10 +140,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2027-01-29",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2026-07-01",
-    "location": "TBD",
+    "next_deadline": "2027-01-11",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "September 7-10, 2027",
+    "location": "Singapore",
     "topics": [
       "Fuzzing",
       "Symbolic Execution",
