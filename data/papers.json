@@ -1,5 +1,246 @@
 [
   {
+    "id": "arxiv-2608.27148v1",
+    "title": "AgentDV: Closed-Loop Agentic AI for Hardware Design Verification",
+    "authors": "Navya Goli, Junzhe Liu, Zhenge Jia et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27148v1",
+    "summary": "[AI 摘要] Register-transfer level (RTL) verification consumes a major part of modern system-on-chip (SoC) development effort. Yet, recent LLM-based verification...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27147v1",
+    "title": "Thomson: Continual Learning of Frontier Models for SovereignAI",
+    "authors": "Shengzhuang Chen, Jerrod Parker, Yejin Bang et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27147v1",
+    "summary": "[AI 摘要] The development of frontier models is commonly perceived to be the exclusive remit of a small number of heavily funded players, creating an informatio...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27146v1",
+    "title": "When Tool Outputs Become Commands: Separating Action Induction from Runtime Authorization in Tool-Augmented LLM Agents",
+    "authors": "Xiaokun Guo, Zhen Xu, Dongdong Huo et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27146v1",
+    "summary": "[AI 摘要] Tool-augmented LLM agents must rely on untrusted runtime Observations to complete open-ended tasks; however, when tool outputs no longer merely provid...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27144v1",
+    "title": "Feature Transformation Enhanced Jacobi Polynomial Graph Filtering for Graph Anomaly Detection",
+    "authors": "Xiang Wang, Zhijun Cheng, Zhenyu Meng",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27144v1",
+    "summary": "[AI 摘要] In recent years, graph anomaly detection (GAD) based on frequency-domain filtering have achieved promising results. However, existing approaches still...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27142v1",
+    "title": "GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL",
+    "authors": "Zike Yuan, Han Zhang, Jianzhi Yan et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27142v1",
+    "summary": "[AI 摘要] Despite their potential in standardized graph tasks, Large Language Models (LLMs) remain brittle to real-world shifts in node identifiers and task for...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27141v1",
+    "title": "Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents",
+    "authors": "Chenhao Wu, Haoxuan Jia, Yang Liu et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27141v1",
+    "summary": "[AI 摘要] Large language model agents are increasingly deployed as autonomous loops. Starting from one human goal, such a system repeatedly discovers work, plan...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27136v1",
+    "title": "Optimal Gaussian networks for private distributed quantum sensing",
+    "authors": "Hanbom Yoo, Byeongyun Yang, Hyunwoo Yoo et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27136v1",
+    "summary": "[AI 摘要] Private distributed quantum sensing aims to estimate an authorized collective parameter while preventing independent estimation of individual local pa...",
+    "tags": [
+      "AI+Security",
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27132v1",
+    "title": "Programmable Cavity Squeezing for Distributed Sensing in a Tweezer Array",
+    "authors": "Youssef Trifa, Marco Fattori, Luca Pezzè",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27132v1",
+    "summary": "[AI 摘要] Field sensing with state-of-the-art atom interferometers is restricted to the use of uncorrelated devices op- erating in parallel. We can overcome thi...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27129v1",
+    "title": "SLIDE: Shuffle Shamir Secret Shares Uniformly with Linear Online Communication and Guaranteed Output Delivery",
+    "authors": "Jiacheng Gao, Moyang Xie, Yuan Zhang et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27129v1",
+    "summary": "[AI 摘要] We revisit shuffle protocols for Shamir secret sharing. Existing constructions either produce non-uniform shuffles or incur high communication and rou...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27127v1",
+    "title": "TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation",
+    "authors": "Jingyi Zheng, Yule Liu, Zifan Peng et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27127v1",
+    "summary": "[AI 摘要] Internet memes are a pervasive form of multimodal online communication; however, such communication often involves users from diverse linguistic and c...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27112v1",
+    "title": "Kramers pseudospin and the quantum number proposed for the many-electron Dirac?Coulomb Hamiltonian",
+    "authors": "Shadan Ghassemi Tabrizi",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27112v1",
+    "summary": "[AI 摘要] The square of a sum of single-electron time reversals has been proposed as a conserved quantity with an integer eigenvalue spectrum for the many-elect...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27108v1",
+    "title": "SecureDrive-FL: Joint Differential Privacy and Gradient-Aware Selective Homomorphic Encryption for Federated Driver Monitoring",
+    "authors": "Baran Can Gül, Hanuma Siddhartha Tunuguntla, Anjana Arvind Naik et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27108v1",
+    "summary": "[AI 摘要] Federated Learning (FL) enables privacy-aware distributed training, yet gradient updates remain exploitable: Man-in-the-Middle (MitM) interception exp...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27102v1",
+    "title": "LAAF: A Layered Accountability Architecture Framework for LLM Applications",
+    "authors": "Prachi Chaturvedi, Shahnawaz Ahmad, Ehsan Nowroozi et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27102v1",
+    "summary": "[AI 摘要] Large Language Models (LLMs) operate in hospitals, courtrooms, banks, and public service desks, where fluent, confident outputs are treated as authori...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27101v1",
+    "title": "pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning",
+    "authors": "Shivam Mishra, Dhannu Ram Meena, Muneendra Ojha et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27101v1",
+    "summary": "[AI 摘要] Ontology learning from text remains challenging despite significant progress in Large Language Models (LLMs), which can hallucinate domain terms, prod...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27099v1",
+    "title": "Towards Reproducible Evaluation of Distributed Quantum Circuit Partitioning Algorithms",
+    "authors": "Javier Vela-Tambo, Davud Azizov, Tian Guo",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27099v1",
+    "summary": "[AI 摘要] Distributed Quantum Computing (DQC) addresses the physical scaling limitations of monolithic quantum processors by networking modular Quantum Processi...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27094v1",
+    "title": "An Empirical Evaluation of Using Large Language Models for Automated Model-Based Test Generation",
+    "authors": "Hafize Sanli, Onur Kilincceker, Cihat Cetinkaya",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27094v1",
+    "summary": "[AI 摘要] Large language models have shown strong potential for software engineering tasks, particularly software testing. Model-based testing (MBT) is a softwa...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27092v1",
+    "title": "The Framing Gap: Indirect Prompt-Injection Exfiltration Defeats Surface-Level Defenses in Tool-Using Agents",
+    "authors": "Md Habibur Rahman, Jaeho Kim",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27092v1",
+    "summary": "[AI 摘要] A tool-using LLM agent that reads attacker-controlled web content while holding a secret faces indirect prompt injection: the content may make it exfi...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27080v1",
+    "title": "Active Diffusion-Based Inference for Ill-Posed Inverse Problems under Incomplete Priors",
+    "authors": "Jitao Xu, Nobuo Sato, Yaohang Li",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27080v1",
+    "summary": "[AI 摘要] Many scientific and engineering applications require estimating unknown parameters from experimentally observable data -- an inverse problem that is i...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27066v1",
+    "title": "Beyond Classification: Task-Dependent Learnability under Privacy-Motivated Image Transformations",
+    "authors": "Leon Ranke, Wolfgang Hübner, Ronny Hug et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27066v1",
+    "summary": "[AI 摘要] Privacy-Enhancing Technologies (PETs) in computer vision often rely on noise or image perturbations to protect visual data while securely processing i...",
+    "tags": [
+      "AI+Security"
+    ]
+  },
+  {
+    "id": "arxiv-2608.27057v1",
+    "title": "Fast On-Chip Thermometry with TiN Kinetic Inductance Resonators in 22 nm Process Technology",
+    "authors": "Johann Drayne, George Ridgard, Lorenzo Peri et al.",
+    "source": "arXiv",
+    "date": "2026-08-27",
+    "link": "http://arxiv.org/abs/2608.27057v1",
+    "summary": "[AI 摘要] Understanding the temporal and spatial dependence of temperature is critical in high-performance cryogenic devices. Typical thermometry techniques str...",
+    "tags": [
+      "Arch/Hardware"
+    ]
+  },
+  {
     "id": "arxiv-2608.27457v1",
     "title": "Spectral Fingerprints of Gauge Theories on a Quantum Computer",
     "authors": "Graham Van Goffrier, Debasish Banerjee, Bipasha Chakraborty et al.",
@@ -356,246 +597,6 @@
     "date": "2026-08-27",
     "link": "http://arxiv.org/abs/2608.27281v1",
     "summary": "[AI 摘要] Single photon emitters in silicon carbide (SiC) are a leading platform for scalable quantum technologies. Recent interest has focused on oxygen-vacanc...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27268v1",
-    "title": "BrailleBench: Investigating Multi-Criteria Braille Comprehension in Large Language Models",
-    "authors": "Jinghan Zhang, Fengran Mo, Zhiyu Chen et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27268v1",
-    "summary": "[AI 摘要] Although Large language models (LLMs) mediate access to knowledge and computational assistance, their capabilities should benefit vulnerable groups in...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27267v1",
-    "title": "Efficient Quantum Simulations of Yang-Mills theory with Maximal-tree Gauge",
-    "authors": "Tianyin Li, Ying-Ying Li, Xiaoyang Wang et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27267v1",
-    "summary": "[AI 摘要] We develop a quantum algorithmic framework for the efficient simulation of Yang--Mills theories, including the $\\mathrm{SU}(3)$ gauge theory in Quantu...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27260v1",
-    "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
-    "authors": "Xingshan Zeng, Zishan Xu, Boju Zhang et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27260v1",
-    "summary": "[AI 摘要] LLM agents increasingly rely on generated interaction data to learn how to interact with external environments. Agentic data generation must maintain ...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27244v1",
-    "title": "Compositional Online Learning for Semantic Data Processing Systems",
-    "authors": "Paweł Liskowski, Fuheng Zhao, Benjamin Han et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27244v1",
-    "summary": "[AI 摘要] An LLM call in a semantic data processing system is expensive enough to dominate query cost, yet slow enough to hide a CPU-side learner's update behin...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27237v1",
-    "title": "Long-time Dynamics of Many-body Open Quantum Systems using Quantum Generating Functions",
-    "authors": "Katha Ganguly, Dario Poletti, Bijay Kumar Agarwalla",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27237v1",
-    "summary": "[AI 摘要] The interplay between coherent unitary evolution and environment-induced dissipation can give rise to a wide range of non-equilibrium dynamics in open...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27234v1",
-    "title": "SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
-    "authors": "Dylan Girrens, Guangjing Wang",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27234v1",
-    "summary": "[AI 摘要] Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority ove...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27225v1",
-    "title": "STEP: State-Aware Task Estimation and Planning with Multi-Modal LLMs for Human-Robot Collaboration",
-    "authors": "Maitrey Gramopadhye, Prakash Baskaran, Xiao Liu et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27225v1",
-    "summary": "[AI 摘要] Effective human-robot collaboration in industrial settings requires robots to understand human intentions and assist with task planning, reducing work...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27217v1",
-    "title": "Tight Bounds for Purity and Product Testing from Partial Transposition",
-    "authors": "Oren Akresh, Jacob Beckey",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27217v1",
-    "summary": "[AI 摘要] Coherent measurements across multiple copies of an unknown quantum state can substantially reduce the number of samples required to learn its properti...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27216v1",
-    "title": "QH-GEM: Quantum-Hydrodynamic Generative Modeling",
-    "authors": "Harbir Antil, Alex Kaltenbach, Sarswati Shah",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27216v1",
-    "summary": "[AI 摘要] In this paper, we develop a deterministic, physically constrained generative framework based on the Madelung formulation of the free-particle Schrödin...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27215v1",
-    "title": "From Security Events to Conflict States: A Three-layer Cyber Defense Scenario Model for Enhanced Cyber Situational Awareness",
-    "authors": "Miguel Requena Micó, Mario Fernandez-Tarraga, Daniel Díaz-López et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27215v1",
-    "summary": "[AI 摘要] Cyber defense in mission-critical environments requires integrated approaches capable of representing adversarial progression, defender-side uncertain...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27211v1",
-    "title": "The Find Rows and Columns and Decode algorithm for quantum expander codes",
-    "authors": "Dimiter Ostrev",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27211v1",
-    "summary": "[AI 摘要] A new adaptation of the Find Erasures and Decode algorithm from classical to quantum expander codes is presented. It runs in linear time and is parall...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27206v1",
-    "title": "PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference",
-    "authors": "Junjie Liu, Shengyuan Ye, Xu Chen",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27206v1",
-    "summary": "[AI 摘要] Vision-Language Models (VLMs) demonstrate exceptional visual reasoning capabilities, yet their inference costs escalate rapidly with the proliferation...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27202v1",
-    "title": "Strong Converse Exponent of Quantum State Merging",
-    "authors": "Mario Berta, Hao-Chung Cheng, Roberto Rubboli et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27202v1",
-    "summary": "[AI 摘要] We determine the strong converse exponent for the entanglement cost of quantum state merging, showing that it is characterized by the optimized $α$-$z...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27199v1",
-    "title": "Vision-centric generative AI models: A software-hardware perspective",
-    "authors": "Eleni Tselepi, Cristian Sestito, Shady Agwa et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27199v1",
-    "summary": "[AI 摘要] Vision generative artificial intelligence (AI) has emerged as one of the most rapidly advancing areas of deep learning. The explosion of multimodal mo...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27184v1",
-    "title": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
-    "authors": "Matthew Youngman, Cristian Sestito, Themis Prodromakis",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27184v1",
-    "summary": "[AI 摘要] Electronic design automation (EDA) has advanced engineering productivity through successive generations of tooling that progressively automate synthes...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27176v1",
-    "title": "When Text Misleads: Inconsistent-Aware Reasoning for Audio-Grounded Dialogue",
-    "authors": "Yen-Ju Lu, Yuzhe Wang, Yaohan Guan et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27176v1",
-    "summary": "[AI 摘要] Understanding spoken dialogue requires joint reasoning over lexical content and paralinguistic acoustic signals such as emotion and conversational int...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27172v1",
-    "title": "X-WAD: eXplainable Web Anomaly Detection",
-    "authors": "Matteo Bitussi, Roberto Doriguzzi-Corin",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27172v1",
-    "summary": "[AI 摘要] The rapid growth of web-based services, particularly API-driven architectures, reflects an increasing reliance on distributed systems, exposing sensit...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27171v1",
-    "title": "Conditional contraction coefficients and their applications to quantum networks",
-    "authors": "Christoph Hirche, Ian George, Theshani Nuradha et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27171v1",
-    "summary": "[AI 摘要] Contraction coefficients quantify the loss of distinguishability induced by a channel and provide a strong form of the data-processing inequality. Whi...",
-    "tags": [
-      "Arch/Hardware"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27167v1",
-    "title": "Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable",
-    "authors": "Pranav Aggarwal",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27167v1",
-    "summary": "[AI 摘要] An LLM agent shown a professional-looking market panel commits to a directional call on a provably unpredictable question far more often than one aske...",
-    "tags": [
-      "AI+Security"
-    ]
-  },
-  {
-    "id": "arxiv-2608.27163v1",
-    "title": "Dynamics and spectra of open quantum systems coupled to anharmonic environments",
-    "authors": "Kian Damezin, Brendon W. Lovett, Erik M. Gauger et al.",
-    "source": "arXiv",
-    "date": "2026-08-27",
-    "link": "http://arxiv.org/abs/2608.27163v1",
-    "summary": "[AI 摘要] In open quantum systems, the environment is typically modelled as a collection of harmonic oscillators, whereas realistic environments often exhibit u...",
     "tags": [
       "Arch/Hardware"
     ]
