@@ -658,10 +658,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-11-14",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2026-06-11",
-    "location": "TBD",
+    "next_deadline": "2026-11-16",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "June 20-24, 2027",
+    "location": "Seattle, WA, United States",
     "topics": [
       "Adversarial Vision",
       "Deepfake Detection",
