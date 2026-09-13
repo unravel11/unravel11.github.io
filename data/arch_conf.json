@@ -116,10 +116,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2026-11-20",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2026-06-20",
-    "location": "San Francisco, USA",
+    "next_deadline": "2026-11-18",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "July 11-14, 2027",
+    "location": "San Jose, CA",
     "topics": [
       "EDA for AI Hardware",
       "Hardware Security",
