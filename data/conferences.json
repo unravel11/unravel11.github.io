@@ -173,10 +173,10 @@
         "note": "Multiple rounds"
       }
     ],
-    "next_deadline": "2026-10-10",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "October 3-9, 2026",
-    "location": "Oakland, California, United States",
+    "next_deadline": "2026-10-14",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "October 10-15, 2027",
+    "location": "Prague, Czechia",
     "topics": [
       "Program Analysis",
       "Compiler Verification",
