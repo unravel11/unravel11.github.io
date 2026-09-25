@@ -238,10 +238,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2027-03-06",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "September 14-18, 2026",
-    "location": "Benevento, Italy",
+    "next_deadline": "2027-03-05",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "September 7-11, 2027",
+    "location": "Toronto, Canada",
     "topics": [
       "Software Maintenance",
       "Evolutionary Analysis",
