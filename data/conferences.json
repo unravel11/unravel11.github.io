@@ -755,10 +755,10 @@
         "note": ""
       }
     ],
-    "next_deadline": "2027-01-05",
-    "deadline_note": "Expected (Auto-predicted)",
-    "conference_date": "2025-07-27",
-    "location": "Vienna, Austria",
+    "next_deadline": "2027-01-04",
+    "deadline_note": "Verified (Source: CCF)",
+    "conference_date": "August 17-22, 2027",
+    "location": "Kyoto, Japan",
     "topics": [
       "Large Language Models",
       "NLP Security",
